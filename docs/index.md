@@ -4,23 +4,25 @@ layout: home
 
 hero:
   name: "可动程序文档"
-  text: "Documentation for the CGexe Plugins"
+  text: "Documentation for the CGexe Project"
   tagline: Life's short, let's fish.
   image:
-    src: /public/doclogo.webp
+    src: ./img/doclogo.webp
     alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 点击查看文档
+      link: /guide/markdown-examples
     - theme: alt
-      text: API Examples
+      text: 插件介绍
       link: /api-examples
 
 features:
-  - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+  - icon: 
+      src: ./img/RS-AutoPBR.webp
+    title: RS-NodeTool 2.0
+    details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /project/RS-NodeTool/RS-NodeTool-about
   - icon:
       src: /cool-feature-icon.svg
     title: Another cool feature
