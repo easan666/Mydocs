@@ -19,6 +19,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '简介', link: '/project/RS-NodeTool/RS-NodeTool-about' },
+            { text: '概述', link: '/project/RS-NodeTool/00-RNT-about' },
             { text: '插件说明/设置', link: '/project/RS-NodeTool/01-RNT-setting' },
             { text: '登录验证', link: '/project/RS-NodeTool/about_login' },
             { text: 'RS-AutoPBR（自动PBR）', link: '/project/RS-NodeTool/02-RNT-AutoPBR' }

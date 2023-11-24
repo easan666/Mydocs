@@ -140,3 +140,20 @@
 .medium-zoom-image {
   z-index: 100;
 }
+
+.avatar {
+  position: relative;
+  flex-shrink: 0;
+  margin: 0 auto;
+  border-radius: 25%;
+}
+
+.avatar-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
