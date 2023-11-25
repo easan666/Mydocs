@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/Optimize Select.webp" alt="Custom Icon"></span>Optimize Node（优化节点）
+# <span class="h1-icon"><img src="/img/Optimize Select.webp" alt="Custom Icon"></span>Optimize Node（优化节点）
 
 <br/>
 

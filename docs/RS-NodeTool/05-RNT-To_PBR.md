@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/To PBR.webp" alt="Custom Icon"></span>To PBR（PBR连接）
+# <span class="h1-icon"><img src="/img/To PBR.webp" alt="Custom Icon"></span>To PBR（PBR连接）
 
 <br/>
 

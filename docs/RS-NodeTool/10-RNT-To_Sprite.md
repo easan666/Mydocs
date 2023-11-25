@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/To Sprite.webp" alt="Custom Icon"></span>To Sprite（转为Sprite）
+# <span class="h1-icon"><img src="/img/To Sprite.webp" alt="Custom Icon"></span>To Sprite（转为Sprite）
 
 <br/>
 

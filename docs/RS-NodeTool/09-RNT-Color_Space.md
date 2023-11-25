@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/Color Space.webp" alt="Custom Icon"></span>Color Space（设置颜色空间）
+# <span class="h1-icon"><img src="/img/Color Space.webp" alt="Custom Icon"></span>Color Space（设置颜色空间）
 
 <br/>
 

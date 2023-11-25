@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/Set UDIM.webp" alt="Custom Icon"></span>Set UDIM（设置UDIM）
+# <span class="h1-icon"><img src="/img/Set UDIM.webp" alt="Custom Icon"></span>Set UDIM（设置UDIM）
 
 <br/>
 

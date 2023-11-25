@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/RS-QuickNode.webp" alt="Custom Icon"></span>RS-AutoNode（自动节点）
+# <span class="h1-icon"><img src="/img/RS-QuickNode.webp" alt="Custom Icon"></span>RS-AutoNode（自动节点）
 
 ## 简介
 
@@ -15,8 +15,8 @@ layout: doc
 - 指定端口自动连接贴图
 - 可以在[**插件设置**](01-RNT-setting#文件夹-列表模式)，切换列表模式和文件夹模式：
 <div class="img-to zoomable-image">
-  <img src="/img/plugin_list_mode.webp" alt="列表模式" width="200">
-  <img src="/img/plugin_folder_mode.webp" alt="文件夹模式" width="200">
+  <img src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
+  <img src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
 </div>
 
 <br/>
@@ -30,7 +30,7 @@ layout: doc
 1. 打开C4D的资产浏览器（Shift+F8），点击创建>导入资产>选择`NodeTool.zip`
 <br/>
 
-<img class="zoomable-image" src="/img/import_node_assets.webp" alt="保存为新版本" width="450">
+<img class="zoomable-image" src="/img/import_node_assets.webp" alt="保存为新版本" width=50%>
 
 <br/>
 <br/>
@@ -40,7 +40,7 @@ layout: doc
 > 需要切换渲染器为Redshift，新建RS材质，然后打开材质节点面板才能看到节点资产文件
 
 <br/>
-<img class="zoomable-image" src="/img/browse_node_assets.webp" alt="保存为新版本" width="450">
+<img class="zoomable-image" src="/img/browse_node_assets.webp" alt="保存为新版本" width=50%>
 
 <br/>
 
@@ -54,8 +54,8 @@ layout: doc
 插件调用之后会自动转为节点组，所以如果是用农场或者分享工程也不受影响
 ```
 
-<img class="zoomable-image" src="/img/edit_node_assets.webp" alt="编辑节点资产" width="350">
-<img class="zoomable-image" src="/img/save_node_as_new_version.webp" alt="保存为新版本" width="450">
+<img class="zoomable-image" src="/img/edit_node_assets.webp" alt="编辑节点资产" width=50%>
+<img class="zoomable-image" src="/img/save_node_as_new_version.webp" alt="保存为新版本" width=70%>
 
 <br />
 <br/>

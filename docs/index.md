@@ -12,17 +12,17 @@ hero:
   actions:
     - theme: brand
       text: 点击查看文档
-      link: /project/RS-NodeTool/00-RNT-about
+      link: /RS-NodeTool/00-RNT-about
     - theme: alt
       text: 插件介绍
-      link: /project/RS-NodeTool/00-about#功能介绍
+      link: /RS-NodeTool/#功能介绍
 
 features:
   - icon: 
       src: ./img/RS-NodeTool-200.webp
     title: RS-NodeTool 2.0
     details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /project/RS-NodeTool/00-about
+    link: /RS-NodeTool/
   - icon:
       src: ./img/RS-NodeSG-200.webp
     title: RS-NodeSG

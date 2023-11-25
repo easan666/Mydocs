@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/TriPlanar Control.webp" alt="Custom Icon"></span>Set TriPlanar（处理平铺）
+# <span class="h1-icon"><img src="/img/TriPlanar Control.webp" alt="Custom Icon"></span>Set TriPlanar（处理平铺）
 
 <br/>
 

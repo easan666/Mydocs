@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/Blur Node.webp" alt="Custom Icon"></span>Blur Node（模糊节点）
+# <span class="h1-icon"><img src="/img/Blur Node.webp" alt="Custom Icon"></span>Blur Node（模糊节点）
 
 <br/>
 

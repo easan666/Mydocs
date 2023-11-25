@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/UV PSR.webp" alt="Custom Icon"></span>UV PSR（添加PSR控制）
+# <span class="h1-icon"><img src="/img/UV PSR.webp" alt="Custom Icon"></span>UV PSR（添加PSR控制）
 
 <br/>
 

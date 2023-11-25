@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/RS-Settings.webp" alt="NodeTool插件设置"></span>插件设置
+# <span class="h1-icon"><img src="/img/RS-Settings.webp" alt="NodeTool插件设置"></span>插件设置
 
 ## 登录验证
 每个用户可以在5台电脑上使用，超过5台电脑将会被禁止登录。  
@@ -15,12 +15,12 @@ layout: doc
 如果登录验证成功，会有弹窗提示。
 ```
 <br/>
-<img class="zoomable-image" src="/img/login.webp" alt="登录验证" width="250">
+<img class="zoomable-image" src="/img/login.webp" alt="登录验证" width=50%>
 
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img class="zoomable-image" src="/img/plugin_settings_options.webp" alt="插件设置" width="250">
+<img class="zoomable-image" src="/img/plugin_settings_options.webp" alt="插件设置" width=50%>
 
 <br />
 
@@ -28,8 +28,8 @@ layout: doc
 - 此处是用于AutoNode（自动节点）的显示模式
 - 列表模式和文件夹模式：
 <div class="img-to zoomable-image">
-  <img src="/img/plugin_list_mode.webp" alt="列表模式" width="200">
-  <img src="/img/plugin_folder_mode.webp" alt="文件夹模式" width="200">
+  <img src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
+  <img src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
 </div>
 
 <br />
@@ -122,7 +122,7 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 
 <br />
 
-<img class="zoomable-image" src="/img/plugin_settings_options-color-space.webp" alt="颜色空间设置" width="350">
+<img class="zoomable-image" src="/img/plugin_settings_options-color-space.webp" alt="颜色空间设置" width=50%>
 
 <br />
 <br />

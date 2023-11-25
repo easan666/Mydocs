@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="../../public/img/RS-AutoID.webp" alt="Custom Icon"></span>AutoID（自动ID）
+# <span class="h1-icon"><img src="/img/RS-AutoID.webp" alt="Custom Icon"></span>AutoID（自动ID）
 
 <br/>
 

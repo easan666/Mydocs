@@ -23,24 +23,24 @@ export default defineConfig({
     lastUpdatedText: '上次更新时间',
     sidebar: {
 
-      '/project/': [
+      '/RS-NodeTool/': [
         {
           text: 'RS-NodeTool',
           collapsed: false,
           items: [
-            { text: '简介', link: '/project/RS-NodeTool/00-about' },
-            { text: '插件设置/登录验证', link: '/project/RS-NodeTool/01-RNT-setting' },
-            { text: 'AutoPBR（自动PBR）', link: '/project/RS-NodeTool/02-RNT-AutoPBR' },
-            { text: 'AutoNode（自动节点）', link: '/project/RS-NodeTool/03-RNT-AutoNode' },
-            { text: 'AutoID（自动ID）', link: '/project/RS-NodeTool/04-RNT-AutoID' },
-            { text: 'To PBR（PBR连接）', link: '/project/RS-NodeTool/05-RNT-To_PBR' },
-            { text: 'Set TriPlanar（处理平铺）', link: '/project/RS-NodeTool/06-RNT-TriPlanar' },
-            { text: 'UV PSR（添加PSR控制）', link: '/project/RS-NodeTool/07-RNT-UV_PSR' },
-            { text: 'Set UDIM（设置UDIM）', link: '/project/RS-NodeTool/08-RNT-Set_UDIM' },
-            { text: 'Color Space（设置颜色空间）', link: '/project/RS-NodeTool/09-RNT-Color_Space' },
-            { text: 'To Sprite（转为Sprite）', link: '/project/RS-NodeTool/10-RNT-To_Sprite' },
-            { text: 'Optimize Node（优化节点）', link: '/project/RS-NodeTool/11-RNT-Optimize_Node' },
-            { text: 'Blur Node（模糊节点）', link: '/project/RS-NodeTool/12-RNT-Blur_Node' },
+            { text: '简介/更新说明', link: '/RS-NodeTool/' },
+            { text: '插件设置/登录验证', link: '/RS-NodeTool/01-RNT-setting' },
+            { text: 'AutoPBR（自动PBR）', link: '/RS-NodeTool/02-RNT-AutoPBR' },
+            { text: 'AutoNode（自动节点）', link: '/RS-NodeTool/03-RNT-AutoNode' },
+            { text: 'AutoID（自动ID）', link: '/RS-NodeTool/04-RNT-AutoID' },
+            { text: 'To PBR（PBR连接）', link: '/RS-NodeTool/05-RNT-To_PBR' },
+            { text: 'Set TriPlanar（处理平铺）', link: '/RS-NodeTool/06-RNT-TriPlanar' },
+            { text: 'UV PSR（添加PSR控制）', link: '/RS-NodeTool/07-RNT-UV_PSR' },
+            { text: 'Set UDIM（设置UDIM）', link: '/RS-NodeTool/08-RNT-Set_UDIM' },
+            { text: 'Color Space（设置颜色空间）', link: '/RS-NodeTool/09-RNT-Color_Space' },
+            { text: 'To Sprite（转为Sprite）', link: '/RS-NodeTool/10-RNT-To_Sprite' },
+            { text: 'Optimize Node（优化节点）', link: '/RS-NodeTool/11-RNT-Optimize_Node' },
+            { text: 'Blur Node（模糊节点）', link: '/RS-NodeTool/12-RNT-Blur_Node' },
           ]
         }
       ],
