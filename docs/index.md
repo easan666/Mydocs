@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 点击查看文档
-      link: /RS-NodeTool/00-RNT-about
+      link: /RS-NodeTool/
     - theme: alt
       text: 插件介绍
       link: /RS-NodeTool/#功能介绍
