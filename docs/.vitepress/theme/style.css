@@ -49,7 +49,8 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
+  /* --vp-c-brand-1: var(--vp-c-indigo-1); */
+  --vp-c-brand-1: #000;
   --vp-c-brand-2: var(--vp-c-indigo-2);
   --vp-c-brand-3: var(--vp-c-indigo-3);
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
@@ -77,10 +78,10 @@
 :root {
   --vp-button-brand-border: transparent;
   --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-bg: #000;
   --vp-button-brand-hover-border: transparent;
   --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-hover-bg: #454545;
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
   --vp-button-brand-active-bg: var(--vp-c-brand-1);
@@ -93,12 +94,12 @@
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
-      #bd34fe 30%,
-      #41d1ff);
+      #3d3d3d 30%,
+      #000000);
 
   --vp-home-hero-image-background-image: linear-gradient(-45deg,
-      #bd34fe 50%,
-      #47caff 50%);
+      #ffffff 50%,
+      #ffffff 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
@@ -121,8 +122,25 @@
 :root {
   --vp-custom-block-tip-border: transparent;
   --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
   --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
   --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+}
+
+.dark {
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #bd34fe 30%,
+      #41d1ff);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #bd34fe 50%,
+      #47caff 50%);
+
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-home-hero-image-filter: blur(44px);
+
+  --vp-c-brand-1: rgba(220, 226, 255, 0.86);
 }
 
 /**
@@ -141,19 +159,38 @@
   z-index: 100;
 }
 
-.avatar {
-  position: relative;
-  flex-shrink: 0;
-  margin: 0 auto;
-  border-radius: 25%;
+.gb-text {
+  color: green;
+  font-weight: bold;
 }
 
-.avatar-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  border-radius: 50%;
-  object-fit: cover;
+.cu-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ss-25 {
+  width: 25px;
+  height: 25px;
+}
+
+.h1-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: #434343;
+  border-radius: 25%;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+.img-to {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-to img {
+  margin-right: 5px;
 }
