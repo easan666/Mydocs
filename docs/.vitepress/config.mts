@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/',
   title: "可动程序文档",
   description: "Documentation for the CGexe Project",
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
