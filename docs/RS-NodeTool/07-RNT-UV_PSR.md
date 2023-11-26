@@ -20,7 +20,7 @@ layout: doc
 #### UV PSR节点
 - UV PSR节点可以控制贴图的缩放偏移旋转，还内置模糊功能
 
-![Alt text](/img/uv-psr-node.webp)
+![UV PSR](/img/uv-psr-node.webp){data-zoomable}
 
 
 <br/>

@@ -91,3 +91,29 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 2. 新增RS-AddDistorter_Node
 3. 新增RS-AutoPuzzleMatte
 :::
+
+
+<br />
+<br />
+
+## ☠使用注意
+新版Node节点生成预览的时候都会造成CPU或者GPU瞬间占用很高，Vray是用CPU生成预览，Redshift是用GPU生成预览。  
+Redshift在连接节点之后会计算节点产生的预览效果。这个过程GPU中使用率会**瞬间变高🔥**（生成预览之后会降低），特别是同时连接多个贴图的时候GPU的使用率会突然飙升。
+> 这和插件无关，就算不用插件，这个问题也是存在的
+
+<br />
+
+::: danger 个人建议
+所以如果当你场景比较大的时候，建议把材质预览**关闭**或者修改为**渲染器闲置时**。
+:::
+
+<br />
+
+可以在设置（Ctrl+E）> 渲染器 > Redshift，**关闭**材质预览或者修改为**渲染器闲置时**。  
+[渲染器闲置时](https://help.maxon.net/r3d/cinema/en-us/#html/Redshift+Preferences.html?TocPath=_____8)就是仅在渲染器空闲时更新材质预览。  
+关闭材质预览之后，连接贴图会快很多，而且也不会占用额外的资源。  
+缺点就是材质没有预览，都是黑色的，所以必须归类命名好😂
+
+<br />
+
+![关闭材质预览](/img/disable_material_preview.webp){data-zoomable}

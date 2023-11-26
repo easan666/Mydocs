@@ -24,7 +24,7 @@ TriPlanar Control节点组可以控制TriPlanar的大部分参数，包括偏移
 TriPlanar Control节点内置扭曲节点，用于处理重复贴图
 ```
 
-![Alt text](/img/triplanar_control-node.webp)
+![TriPlanar Control](/img/triplanar_control-node.webp){data-zoomable}
 
 <br/>
 <br/>

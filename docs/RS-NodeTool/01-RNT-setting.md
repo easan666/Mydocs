@@ -15,21 +15,23 @@ layout: doc
 如果登录验证成功，会有弹窗提示。
 ```
 <br/>
-<img class="zoomable-image" src="/img/login.webp" alt="登录验证" width=50%>
+<img src="/img/login.webp" data-zoomable alt="登录验证" width=50% >
+
+<!-- ![](/img/login.webp){data-zoomable} -->
 
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img class="zoomable-image" src="/img/plugin_settings_options.webp" alt="插件设置" width=50%>
+<img data-zoomable src="/img/plugin_settings_options.webp" alt="插件设置" width=50%>
 
 <br />
 
 ### 文件夹/列表模式
 - 此处是用于AutoNode（自动节点）的显示模式
 - 列表模式和文件夹模式：
-<div class="img-to zoomable-image">
-  <img src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
-  <img src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
+<div class="img-to" >
+  <img data-zoomable src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
+  <img data-zoomable src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
 </div>
 
 <br />
@@ -53,7 +55,7 @@ AutoPBR（自动PBR）执行后会根据贴图连接的通道自动命名。
 ### 自定义通道关键词
 AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需要设置对应的关键词。
 
-![关键词](/img/keywords_for_file_names.webp)  
+![关键词](/img/keywords_for_file_names.webp){data-zoomable}
 
 <br />
 
@@ -122,7 +124,7 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 
 <br />
 
-<img class="zoomable-image" src="/img/plugin_settings_options-color-space.webp" alt="颜色空间设置" width=50%>
+<img data-zoomable src="/img/plugin_settings_options-color-space.webp" alt="颜色空间设置" width=50%>
 
 <br />
 <br />

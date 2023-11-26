@@ -14,9 +14,10 @@ layout: doc
 - 选择多个节点，自动添加混合层
 - 指定端口自动连接贴图
 - 可以在[**插件设置**](01-RNT-setting#文件夹-列表模式)，切换列表模式和文件夹模式：
-<div class="img-to zoomable-image">
-  <img src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
-  <img src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
+
+<div class="img-to" >
+  <img data-zoomable src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
+  <img data-zoomable src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
 </div>
 
 <br/>
@@ -30,7 +31,7 @@ layout: doc
 1. 打开C4D的资产浏览器（Shift+F8），点击创建>导入资产>选择`NodeTool.zip`
 <br/>
 
-<img class="zoomable-image" src="/img/import_node_assets.webp" alt="保存为新版本" width=50%>
+<img data-zoomable src="/img/import_node_assets.webp" alt="保存为新版本" width=50%>
 
 <br/>
 <br/>
@@ -40,7 +41,7 @@ layout: doc
 > 需要切换渲染器为Redshift，新建RS材质，然后打开材质节点面板才能看到节点资产文件
 
 <br/>
-<img class="zoomable-image" src="/img/browse_node_assets.webp" alt="保存为新版本" width=50%>
+<img data-zoomable src="/img/browse_node_assets.webp" alt="保存为新版本" width=50%>
 
 <br/>
 
@@ -54,8 +55,8 @@ layout: doc
 插件调用之后会自动转为节点组，所以如果是用农场或者分享工程也不受影响
 ```
 
-<img class="zoomable-image" src="/img/edit_node_assets.webp" alt="编辑节点资产" width=50%>
-<img class="zoomable-image" src="/img/save_node_as_new_version.webp" alt="保存为新版本" width=70%>
+<img data-zoomable src="/img/edit_node_assets.webp" alt="编辑节点资产" width=50%>
+<img data-zoomable src="/img/save_node_as_new_version.webp" alt="保存为新版本" width=70%>
 
 <br />
 <br/>
@@ -188,7 +189,7 @@ TriPlanar Control节点组可以控制TriPlanar的大部分参数，包括偏移
 TriPlanar Control节点内置扭曲节点，用于处理重复贴图
 ```
 
-![Alt text](/img/triplanar_control-node.webp)
+![Alt text](/img/triplanar_control-node.webp){data-zoomable}
 
 <br/>
 <br/>
@@ -213,7 +214,7 @@ TriPlanar Control节点内置扭曲节点，用于处理重复贴图
 #### UV PSR节点
 - UV PSR节点可以控制贴图的缩放偏移旋转，还内置模糊功能
 
-![Alt text](/img/uv-psr-node.webp)
+![Alt text](/img/uv-psr-node.webp){data-zoomable}
 
 
 <br/>
