@@ -148,6 +148,15 @@ Redshift在连接节点之后会计算节点产生的预览效果。这个过程
 
 <br />
 
+### 说明视频
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=833983424&bvid=BV1D34y1F7if&t=185&cid=1346021641&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+<br />
+
 可以在设置（Ctrl+E）> 渲染器 > Redshift，**关闭**材质预览或者修改为**渲染器闲置时**。  
 [渲染器闲置时](https://help.maxon.net/r3d/cinema/en-us/#html/Redshift+Preferences.html?TocPath=_____8)就是仅在渲染器空闲时更新材质预览。  
 关闭材质预览之后，连接贴图会快很多，而且也不会占用额外的资源。  

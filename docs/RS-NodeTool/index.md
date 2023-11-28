@@ -24,6 +24,18 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 ## 功能介绍
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
 
+
+<br />
+
+## 视频教程
+
+### RS-NodeTool v2.0 视频教程
+<br />
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=833983424&bvid=BV1D34y1F7if&cid=1346021641&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+
 <br />
 
 
@@ -101,11 +113,22 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 Redshift在连接节点之后会计算节点产生的预览效果。这个过程GPU中使用率会**瞬间变高🔥**（生成预览之后会降低），特别是同时连接多个贴图的时候GPU的使用率会突然飙升。
 > 这和插件无关，就算不用插件，这个问题也是存在的
 
+
 <br />
 
 ::: danger 个人建议
 所以如果当你场景比较大的时候，建议把材质预览**关闭**或者修改为**渲染器闲置时**。
 :::
+
+<br />
+
+### 说明视频
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=833983424&bvid=BV1D34y1F7if&t=185&cid=1346021641&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
 
 <br />
 
