@@ -1,11 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',
   title: "可动程序文档",
   description: "Documentation for the CGexe Project",
-  head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -66,6 +68,7 @@ export default defineConfig({
         link: 'https://space.bilibili.com/1435411362',
       }
     ],
+
     footer: {
       message: '',
       copyright: 'Copyright © 可动程序 CGexe',
@@ -74,7 +77,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          root: { //这里是个大坑，zh是不生效的，改为root即可
+          root: { //zh是不生效的，改为root即可
             translations: {
               button: {
                 buttonText: '搜索文档',

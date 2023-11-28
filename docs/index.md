@@ -8,7 +8,7 @@ hero:
   tagline: Life's short, let's fish.
   image:
     src: ./img/cgexe-logo.webp
-    alt: VitePress
+    alt: cgexe
   actions:
     - theme: brand
       text: 点击查看文档
