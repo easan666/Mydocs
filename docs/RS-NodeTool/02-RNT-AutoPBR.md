@@ -111,8 +111,8 @@ layout: doc
 <br />
 
 
-### 4. 混合材质
-支持混合材质的连接，如果有多个材质节点，需选中需要连接的材质节点
+### 4. 多材质节点/混合材质
+支持混合材质的连接，如果有多个材质节点，需要指定材质节点
 
 <video controls>
   <source src="/img/autopbr_automatic_blend_multiple_materials.webm" type="video/webm">
