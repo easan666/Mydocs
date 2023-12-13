@@ -35,7 +35,7 @@ layout: doc
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img data-zoomable src="/img/plugin_settings_options.webp" alt="插件设置" width=50%>
+<img data-zoomable src="/img/plugin_settings_options_v2.1.webp" alt="插件设置" width=50%>
 
 <br />
 
@@ -50,14 +50,31 @@ layout: doc
 <br />
 
 ### 自动排列节点
-AutoPBR（自动PBR）和Set TriPlanar（处理平铺）执行后会自动排列节点。
+AutoPBR（自动PBR）和Set TriPlanar（处理平铺）执行后会自动排列节点。  
 如果这里取消勾选则不会自动排列。
 
 <br />
 
 ### 自动重命名贴图
-AutoPBR（自动PBR）执行后会根据贴图连接的通道自动命名。
+AutoPBR（自动PBR）执行后会根据贴图连接的通道自动命名。  
 取消勾选则不会自动命名。
+
+<br />
+
+### Substance节点尺寸设置
+可以设置Substance节点贴图默认的大小，连接后会自动设置。
+
+<br />
+
+### 自动添加调节节点
+AutoPBR（自动PBR）和To PBR（PBR连接）执行后会根据贴图连接的通道自动添加调节节点（Color Correct或者Ramp）。  
+取消勾选则不会自动添加调节节点。
+
+<br />
+
+### 自动重命名材质
+AutoPBR（自动PBR）执行后会根据贴图的名称自动重命名对应材质。  
+取消勾选则不会自动重命名材质。
 
 <br />
 

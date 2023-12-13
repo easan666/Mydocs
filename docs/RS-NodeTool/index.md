@@ -41,7 +41,19 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 
 ## 更新说明
 
-::: info RS_NodeTool v2.0<Badge type="danger" text="更新15+" />
+::: info RS_NodeTool v2.1<Badge type="danger" text="更新7+" />
+1. AutoPBR（自动PBR）新增自动连接[Substance节点](02-RNT-AutoPBR#_6-自动连接substance节点)
+2. 新增自动调节Substance节点[尺寸设置](01-RNT-setting#substance节点尺寸设置)
+3. 新增自动添加[调节节点设置](02-RNT-AutoPBR)
+4. 新增自动[重命名材质](01-RNT-setting#自动重命名材质)
+5. 修复插入节点自动展开预览的bug
+6. 修复英文版显示中文节点的问题
+7. 修复登录验证无网络连接提示
+
+:::
+
+
+::: details RS_NodeTool v2.0<Badge type="info" text="更新15+" />
 1. 对插件核心逻辑进行重构，优化了插件的性能和兼容性
 2. 优化插件的设置方式，可以在设置面板中直接修改插件的设置
 3. 重写AutoPBR（自动PBR）的[连接逻辑](02-RNT-AutoPBR#连接逻辑)
@@ -59,7 +71,6 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 15. 将常用的节点命令（TriPlanar、UV PSR等）变成插件命令，可以自定义快捷键
 
 :::
-
 
 ::: details RS_NodeTool v1.4 <Badge type="info" text="更新12" />
 1. 取消插入节点后自动整理全部节点

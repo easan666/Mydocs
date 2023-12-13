@@ -26,8 +26,9 @@ layout: doc
 <br />
 
 <video controls>
-  <source src="/img/autopbr_demo.webm" type="video/webm">
+  <source src="/img/autopbr_set_adjust_node.webm" type="video/webm">
 </video>
+
 
 <br />
 <br />
@@ -121,6 +122,34 @@ layout: doc
 
 <br />
 <br />
+
+### 5. 自动添加调节节点
+可以在插件设置勾选[**自动添加调节节点**](01-RNT-setting#自动添加调节节点)，连接后会自动添加调节节点
+
+<video controls>
+  <source src="/img/autopbr_set_adjust_node.webm" type="video/webm">
+</video>
+
+
+<br />
+<br />
+
+### 6. 自动连接Substance节点
+可以自动连接Substance节点常用的端口
+
+- 可以在插件设置[**Substance默认尺寸**](01-RNT-setting#substance节点尺寸设置)，连接后会自动设置尺寸
+- 连接后会根据不同通道自动添加调节节点，可以在[**插件设置**](01-RNT-setting##插件设置-1)中取消
+- 连接后会根据sbsar文件名称重命名Substance节点，可以在[**插件设置**](01-RNT-setting##插件设置-1)中取消重命名
+- 连接后会根据sbsar文件名称重命名材质，可以在[**插件设置**](01-RNT-setting##插件设置-1)中取消重命名
+
+<video controls>
+  <source src="/img/autopbr_set_substance_node.webm" type="video/webm">
+</video>
+
+
+<br />
+<br />
+
 
 ## 设置说明
 AutoPBR还会根据不同贴图设置相关参数：
