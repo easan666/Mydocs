@@ -15,7 +15,14 @@ layout: doc
 
 > 也可以在AutoNode（自动节点）[使用该命令](03-RNT-AutoNode)
 
-<br/>
+<br />
+
+::: danger 首次使用
+首次使用先需要导入插件assets文件夹的NodeTool.zip节点文件：[导入教程](03-RNT-AutoNode#导入)
+:::
+
+<br />
+
 
 #### TriPlanar Control
 TriPlanar Control节点组可以控制TriPlanar的大部分参数，包括偏移缩放等。还可以处理贴图平铺重复。

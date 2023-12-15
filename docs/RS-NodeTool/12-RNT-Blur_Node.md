@@ -16,7 +16,13 @@ layout: doc
 > Tip: 添加PSR控制中**UV PSR节点**有内置模糊功能;  
 如果已经添加UV PSR节点，可以不添加模糊节点；
 
-<br/>
+<br />
+
+::: danger 首次使用
+首次使用先需要导入插件assets文件夹的NodeTool.zip节点文件：[导入教程](03-RNT-AutoNode#导入)
+:::
+
+<br />
 
 <video controls>
   <source src="/img/command-blur_node.webm" type="video/webm">

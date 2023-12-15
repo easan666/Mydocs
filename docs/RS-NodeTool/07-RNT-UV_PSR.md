@@ -15,7 +15,14 @@ layout: doc
 
 > 也可以在AutoNode（自动节点）[使用该命令](03-RNT-AutoNode)
 
-<br/>
+<br />
+
+::: danger 首次使用
+首次使用先需要导入插件assets文件夹的NodeTool.zip节点文件：[导入教程](03-RNT-AutoNode#导入)
+:::
+
+<br />
+
 
 #### UV PSR节点
 - UV PSR节点可以控制贴图的缩放偏移旋转，还内置模糊功能
