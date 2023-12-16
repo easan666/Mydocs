@@ -8,6 +8,7 @@ import mediumZoom from 'medium-zoom';
 import './style.css'
 
 export default {
+
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
