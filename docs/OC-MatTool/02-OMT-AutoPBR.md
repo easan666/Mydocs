@@ -68,7 +68,7 @@ layout: doc
 <br />
 
 ::: warning 注意
-贴图 [类型(Type)](https://docs.otoy.com/cinema4d/ImageTexture.html) 设置为正常（Normal）会比浮点（Float）多占用三倍显存，正确设置贴图类型可以节省不必要的资源浪费。
+贴图 [类型(Type)](https://docs.otoy.com/cinema4d/ImageTexture.html) 设置为正常（Normal）会比浮点（Float）多占用三倍显存，正确设置贴图类型可以节省显存资源，不会造成不必要的资源浪费，所以插件进行了自动化的设置。
 :::
 
 <br />

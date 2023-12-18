@@ -19,6 +19,33 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 
 
 <br />
+<br />
+
+### 重复造轮子？
+为什么octane已经有自动连接PBR的功能，还重复造轮子？
+- 因为官方写的有点敷衍，只能识别名称后缀，稍微复杂一点的名称就不会识别。
+- AO不会自动连接，Glossiness不支持，植物常用的Translucency在Standard Surface材质也不会连接和设置
+- 没有设置贴图的<a href="https://docs.otoy.com/cinema4d/ImageTexture.html" target="_blank" class="red_link-sm"
+            rel="noopener nofollow ugc">类型(Type)</a>，正常（Normal）会比浮点（Float）多占用三倍显存，正确设置贴图类型可以有效节省显存资源
+- 交互很霸道，只要你拖入一张贴图，其他贴图也会强制添加
+
+<br />
+
+### 优化
+- 正确设置贴图类型，不会造成不必要显存资源浪费
+- 关键词支持[**正则**](01-OMT-setting#正则使用)，可以进行复杂的匹配和高度自定义
+- 支持`Diffuse`，`AO`，`Metalness`，`Roughness`，`Reflection`，`Glossiness`，`Bump`，`Normal`，`Opacity`，`Displacement`，`Emission`，`Translucency`自动连接和设置
+- 适配Diffuse/Glossy/Specular/Metallic/Toon/Universal和 Standard Surface材质
+- 可以根据所连接的通道自动[命名节点](01-OMT-setting#自动重命名贴图)
+- 可以根据贴图的文件名自动[命名材质](01-OMT-setting#自动重命名材质)
+- 可以为不同类型贴图自动添加[调节节点](01-OMT-setting#自动添加调节节点)
+- 可以自动添加[chaos节点](01-OMT-setting#自动添加chaos节点) 用于处理贴图重复
+- 可以自动添加[UV Transform节点](01-OMT-setting#自动添加uv节点)  
+<br />
+
+然后顺便写了自动设置ID和自动添加Layer Id AOV /Custom AOV，批量添加chaos节点，一键处理重复贴图，批量添加调节节点，批量添加UV节点，批量添加TriPlanar节点等功能，如果用的人比较多会继续添加其他功能。
+
+<br />
 
 ## 功能介绍
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
