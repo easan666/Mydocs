@@ -47,6 +47,26 @@ export default defineConfig({
         }
       ],
 
+      '/OC-MatTool/': [
+        {
+          text: '<span class="h5-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool',
+          collapsed: false,
+          items: [
+            { text: '🧾 简介/更新说明', link: '/OC-MatTool/' },
+            { text: '<span class="h5-icon"><img src="/img/RS-Settings.webp" alt="NodeTool插件设置"></span>插件设置/登录验证', link: '/OC-MatTool/01-OMT-setting' },
+            { text: '<span class="h5-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>AutoPBR（自动PBR）', link: '/OC-MatTool/02-OMT-AutoPBR' },
+            { text: '<span class="h5-icon"><img src="/img/RS-AutoID.webp" alt="Custom Icon"></span>AutoID（自动ID）', link: '/OC-MatTool/03-OMT-AutoID' },
+            { text: '<span class="h5-icon"><img src="/img/OC-AddAdjust.webp" alt="Custom Icon"></span>添加调节节点', link: '/OC-MatTool/04-OMT-SetAdjust' },
+            { text: '<span class="h5-icon"><img src="/img/OC-AddChaos.webp" alt="Custom Icon"></span>添加Chaos节点 (处理重复)', link: '/OC-MatTool/05-OMT-SetChaos' },
+            { text: '<span class="h5-icon"><img src="/img/OC-AddUVTransform.webp" alt="Custom Icon"></span>添加UV Transform节点', link: '/OC-MatTool/06-OMT-SetUVTransform' },
+            { text: '<span class="h5-icon"><img src="/img/OC-AddTriplanar.webp" alt="Custom Icon"></span>添加TriPlanar节点', link: '/OC-MatTool/07-OMT-SetTriPlanar' },
+          ]
+        },
+        {
+          text: '<span class="h5-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool', link: '/RS-NodeTool/'
+        }
+      ],
+
       '/guide/': [
         {
           text: 'guide',

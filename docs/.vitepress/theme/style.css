@@ -186,6 +186,18 @@
   padding: 3px;
 }
 
+.h5-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  background-color: #434343;
+  border-radius: 25%;
+  margin-right: 5px;
+  padding: 3px;
+}
+
 .img-to {
   display: flex;
   justify-content: flex-start;
