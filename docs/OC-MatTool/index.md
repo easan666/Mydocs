@@ -27,7 +27,7 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 - AO不会自动连接，Glossiness不支持，植物常用的Translucency在Standard Surface材质也不会连接和设置
 - 没有设置贴图的<a href="https://docs.otoy.com/cinema4d/ImageTexture.html" target="_blank" class="red_link-sm"
             rel="noopener nofollow ugc">类型(Type)</a>，正常（Normal）会比浮点（Float）多占用三倍显存，正确设置贴图类型可以有效节省显存资源
-- 交互很霸道，只要你拖入一张贴图，其他贴图也会强制添加
+- 交互很霸道，只要拖入一张贴图，其他贴图也会强制添加
 
 <br />
 
