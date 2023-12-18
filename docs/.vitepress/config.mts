@@ -44,6 +44,9 @@ export default defineConfig({
             { text: 'Optimize Node（优化节点）', link: '/RS-NodeTool/11-RNT-Optimize_Node' },
             { text: 'Blur Node（模糊节点）', link: '/RS-NodeTool/12-RNT-Blur_Node' },
           ]
+        },
+        {
+          text: '<span class="h5-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool', link: '/OC-MatTool/'
         }
       ],
 
