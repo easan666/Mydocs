@@ -16,7 +16,10 @@ layout: doc
 - 输入用户名（邮箱）和密码，点击`登录`按钮。  当你输入正确的用户名（邮箱）和密码后，插件将会验证你的身份。  
 <br/>
 
-> 如果没有密码或者忘记密码可以先[绑定邮箱](https://cgexe.com/user/profile/)，然后退出登录后再[重置密码](https://cgexe.com/lostpwd/)
+```
+部分VPN工具会造成C4D（2023之前版本）无法联网，如果提示网络问题，请关闭VPN重试
+
+```
 
 <br/>
 <img src="/img/login.webp" data-zoomable alt="登录验证" width=50% >
