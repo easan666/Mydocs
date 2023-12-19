@@ -28,9 +28,10 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 
 ## 更新说明
 
-::: info OC-MatTool v1.01<Badge type="danger" text="更新2+" />
+::: info OC-MatTool v1.02<Badge type="danger" text="更新3+" />
 1. 修复子级物体使用自动ID不会递增的bug
 2. 设置Custom AOV超过20个时添加提示
+3. 修复v1.01的bug颜色通道不更新的bug
 
 :::
 
