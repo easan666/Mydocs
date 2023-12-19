@@ -5,7 +5,7 @@ layoutClass: doc
 <script setup>
 import MNavLinks from '../components/MNavLinks.vue'
 
-import { NAV_DATA } from '../RS-NodeTool-data'
+import { NAV_DATA } from '../OC-NodeTool-data'
 </script>
 
 # <span class="h1-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool v1.0
