@@ -19,6 +19,28 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 
 
 <br />
+
+## 功能介绍
+<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+
+
+<br />
+
+## 更新说明
+
+::: info OC-MatTool v1.01<Badge type="danger" text="更新2+" />
+1. 修复子级物体使用自动ID不会递增的bug
+2. 设置Custom AOV超过20个时添加提示
+
+:::
+
+
+::: details OC-MatTool v1.0<Badge type="info" text="发布" />
+1. OC-MatTool_v1.0发布
+
+:::
+
+<br />
 <br />
 
 ### 重复造轮子？
@@ -44,13 +66,6 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 <br />
 
 然后顺便写了自动设置ID和自动添加Layer Id AOV /Custom AOV，批量添加chaos节点，一键处理重复贴图，批量添加调节节点，批量添加UV节点，批量添加TriPlanar节点等功能，如果用的人比较多会继续添加其他功能。
-
-<br />
-
-## 功能介绍
-<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
-
-
 
 
 <br />
