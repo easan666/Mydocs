@@ -45,9 +45,8 @@ export default defineConfig({
             { text: 'Blur Node（模糊节点）', link: '/RS-NodeTool/12-RNT-Blur_Node' },
           ]
         },
-        {
-          text: '<span class="h5-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool', link: '/OC-MatTool/'
-        }
+        { text: 'OC-MatTool', link: '/OC-MatTool/' },
+        { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
       ],
 
       '/OC-MatTool/': [
@@ -65,11 +64,37 @@ export default defineConfig({
             { text: '<span class="h5-icon"><img src="/img/OC-AddTriplanar.webp" alt="Custom Icon"></span>添加TriPlanar节点', link: '/OC-MatTool/07-OMT-SetTriPlanar' },
           ]
         },
-        {
-          text: '<span class="h5-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool', link: '/RS-NodeTool/'
-        }
+        { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
       ],
-
+      '/VR-AutoNode/': [
+        {
+          text: '<span class="h5-icon"><img src="/img/VR-AutoPBR.webp" alt="Custom Icon"></span>VR-AutoNode',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/VR-AutoNode/' },
+            { text: '插件设置/登录验证', link: '/VR-AutoNode/01-VAN-setting' },
+            { text: '导入节点资产', link: '/VR-AutoNode/01-VAN-import_assets' },
+            { text: 'AutoPBR（自动PBR）', link: '/VR-AutoNode/02-VAN-AutoPBR' },
+            {
+              text: 'NodeMenu（节点菜单）', collapsed: false, items: [
+                { text: '自定义菜单', link: '/VR-AutoNode/03-VAN-CustomMenu' },
+                { text: '自动连接节点', link: '/VR-AutoNode/03-VAN-CustomMenu-insert_node' },
+                { text: 'Ramp', link: '/VR-AutoNode/03-VAN-CustomMenu-set_ramp' },
+                { text: 'Triplanar', link: '/VR-AutoNode/03-VAN-CustomMenu-set_tri' },
+                { text: 'Randomizer', link: '/VR-AutoNode/03-VAN-CustomMenu-set_random' },
+                { text: 'Transform', link: '/VR-AutoNode/03-VAN-CustomMenu-set_trans' },
+                { text: 'UDIM', link: '/VR-AutoNode/03-VAN-CustomMenu-set_udim' },
+                { text: 'Linear/ACES', link: '/VR-AutoNode/03-VAN-CustomMenu-set_color' },
+              ]
+            },
+            { text: 'To PBR（PBR连接）', link: '/VR-AutoNode/04-VAN-To_PBR' },
+            { text: 'QuickDisp（快速置换）', link: '/VR-AutoNode/05-VAN-QuickDisp' },
+          ]
+        },
+        { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'OC-MatTool', link: '/OC-MatTool/' },
+      ],
       '/guide/': [
         {
           text: 'guide',

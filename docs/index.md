@@ -18,6 +18,11 @@ hero:
       link: /RS-NodeTool/#功能介绍
 
 features:
+  - icon:
+      src: ./img/VR-AutoNodev2-200.webp
+    title: AR-AutoNode
+    details: Arnold节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /VR-AutoNode/
   - icon: 
       src: ./img/OC-MatTool-200.webp
     title: OC-MatTool 1.0
@@ -33,11 +38,6 @@ features:
     title: RS-NodeSG
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: https://cgexe.com/56554/
-  - icon:
-      src: ./img/AR-AutoNode-200.webp
-    title: AR-AutoNode
-    details: Arnold节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: https://cgexe.com/56745/
   - icon:
       src: ./img/VR-AutoPBR-200.webp
     title: VR-AutoNode

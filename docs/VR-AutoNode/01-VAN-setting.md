@@ -1,12 +1,13 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="/img/RS-Settings.webp" alt="NodeTool插件设置"></span>插件设置
+# <span class="h1-icon"><img src="/img/VR-Settings.webp" alt="AutoNode插件设置"></span>插件设置
 
 ## 登录验证
 每个用户可以在**5台电脑**上使用（重装系统会计数），超过5台电脑将会被禁止登录。  
 如果短时间内在多地登录或者短时间登录多台电脑，视为异常记录，**可能会封号或者拉黑**。  
 没有异常记录却被误封或者无法登录可以联系管理员（`cgexe@qq.com`）解封。
+
 
 - 打开插件的设置，切换顶部的tab到`登录验证`。  
 - 输入用户名（邮箱）和密码，点击`登录`按钮。  当你输入正确的用户名（邮箱）和密码后，插件将会验证你的身份。  
@@ -16,53 +17,53 @@ layout: doc
 如果忘记密码可以[找回密码](https://cgexe.com/lostpwd/)
 
 <br/>
-<br/>
-
 <img src="/img/login.webp" data-zoomable alt="登录验证" width=50% >
 
 <!-- ![](/img/login.webp){data-zoomable} -->
 
+<br />
+
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img data-zoomable src="/img/plugin_settings_options_v2.1.webp" alt="插件设置" width=50%>
+<img data-zoomable src="/img/vr-autonode_plugin_settings.webp" alt="插件设置" width=50%>
 
 <br />
+<br />
 
-### 文件夹/列表模式
-- 此处是用于AutoNode（自动节点）的显示模式
-- 列表模式和文件夹模式：
-<div class="img-to" >
-  <img data-zoomable src="/img/plugin_list_mode.webp" alt="列表模式" width=40%>
-  <img data-zoomable src="/img/plugin_folder_mode.webp" alt="文件夹模式" width=40%>
-</div>
+### 切换颜色模式
+Vray 的 Cosmos Browser资产库的资产都是线性流程，所以插件默认也是线性流程。
+有需要可以切换为ACES流程，切换之后点击**确定**
+更新之后VR-AutoPBR，VR-QuickNode，VR-QuickDisp都会修改颜色模式
 
 <br />
 
 ### 自动排列节点
-AutoPBR（自动PBR）和Set TriPlanar（处理平铺）执行后会自动排列节点。  
+AutoPBR（自动PBR）、和Set TriPlanar（处理平铺）执行后会自动排列节点。  
 如果这里取消勾选则不会自动排列。
 
 <br />
 
-### 自动重命名贴图
+### 设置反射为白色
 AutoPBR（自动PBR）执行后会根据贴图连接的通道自动命名。  
 取消勾选则不会自动命名。
 
 <br />
 
-### Substance节点尺寸设置
-可以设置Substance节点贴图默认的大小，连接后会自动设置。
+### 自动添加调节节点
+AutoPBR（自动PBR）和To PBR（PBR连接）执行后会根据贴图连接的通道自动添加调节节点（Color Correct或者Ramp）。  取消勾选则不会自动添加调节节点。
 
+```
+- 此功能仅作用于纹理节点，其他节点不会添加
+- Ramp（渐变映射）节点是节点资产，需要导入AutoNode.zip才能调用
+
+```
 <br />
 
-### 自动添加调节节点
-AutoPBR（自动PBR）和To PBR（PBR连接）执行后会根据贴图连接的通道自动添加调节节点（Color Correct或者Ramp）。  
-取消勾选则不会自动添加调节节点。
+### 自动重命名材质
+AutoPBR（自动PBR）执行后会根据贴图的文件名自动重命名材质。
+如果这里取消勾选则不会自动重命。
 
-```
-此功能仅作用于纹理节点，其他节点不会添加
-```
 
 <br />
 
@@ -141,16 +142,13 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 ### 设置颜色通道
 
 - 可以根据需要添加端口id到选项，设置的通道连接的贴图将会被设置为sRGB(color data)，其他会判断为non-color data
+- 调节节点的设置也是根据这里添加（Color Correct或者Ramp）
 - 插件已经设置了材质的大部分常用颜色端口，如果不是特殊情况是不需要修改
 
->复制的端口ID会比较长，如`com.redshift3d.redshift4c4d.nodes.core.standardmaterial.base_color`  
-设置的时候只需要添加后缀，如：`base_color`
+>复制的端口ID会比较长，如`com.chaos.vray_node.brdfvraymtl.diffuse`  
+设置的时候只需要添加后缀，如：`diffuse`
 
-<br />
 
-<img data-zoomable src="/img/plugin_settings_options-color-space.webp" alt="颜色空间设置" width=50%>
-
-<br />
 <br />
 
 
@@ -162,5 +160,15 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 <br />
 
 <video controls>
-  <source src="/img/Obtain Port ID.webm" type="video/webm">
+  <source src="/img/vr-autonode_autonode_get_port_id.webm" type="video/webm">
 </video>
+
+
+<br />
+<br />
+<br />
+<br />
+
+### 自定义菜单
+
+> 自定义菜单相关设置请参考[自定义菜单](03-VAN-CustomMenu)
