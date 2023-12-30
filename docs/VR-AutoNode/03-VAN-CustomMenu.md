@@ -30,7 +30,7 @@ layout: doc
 <br/>
 
 ```
-示例：maxon_noise,colorcorrection,line,set_tri,set_udim,line,,1057439,12161
+示例：maxon_noise,colorcorrection,line,set_tri,set_udim,line,1057439,12161
 ```
 
 <br/>
