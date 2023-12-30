@@ -143,6 +143,12 @@ Vray目前没有提供法线（Normal）混合的功能，所以法线只能添�
 ### 5. 自动添加调节节点
 可以在插件设置勾选[**自动添加调节节点**](01-VAN-setting#自动添加调节节点)，连接后会自动添加调节节点
 
+<br />
+
+> 首次使用需要需要导入VR-AutoNode.zip文件
+
+<br />
+
 <video controls>
   <source src="/img/vr-autonode_autopbr_05_add_adjust.webm" type="video/webm">
 </video>
