@@ -9,6 +9,7 @@ layout: doc
 - 选中所需贴图，点击执行就会为每个贴图创建TriPlanar节点然后连接。
 - 会创建一个`Triplanar Control`节点和控制所有TriPlanar节点的参数
 - 会创建一个`UVW Randomizer`节点控制所有贴图
+- 插件自定义id： `set_tri`
 
 <br/>
 

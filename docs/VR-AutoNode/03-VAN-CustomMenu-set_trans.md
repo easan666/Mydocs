@@ -9,6 +9,7 @@ layout: doc
 - 为Bitmap节点添加UVW-Transform控制
 - 选中所需贴图，点击执行就会创建`UVW-Transform`节点然后连接
 - 可以选择多个节点，会自动过滤Bitmap节点，然添加`UVW-Transform`节点控制所有贴图
+- 插件自定义id： `set_trans`
 
 <br/>
 

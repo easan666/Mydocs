@@ -10,6 +10,7 @@ layout: doc
 - 全选节点，会自动为贴图设置颜色空间
 - 用于切换Linear/ACES
 - [设置的颜色通道](01-VAN-setting#设置颜色通道)所连接的贴图将会被设置为sRGB(color data)，其他会判断为non-color data
+- 插件自定义id： `set_linear`和`set_aces`
 
 ```
 插件连接的贴图会自动设置颜色模式，也可以在插件设置中切换颜色模式

@@ -10,6 +10,7 @@ layout: doc
 - 选中所需贴图，点击执行就会自动设置
 - 如果检测到贴图的名称尾数后4位为`10xx`，就会将`10xx`替换为`<udim>`
 - 置换贴图的UDIM设置请看：[VR-QuickDisp](05-VAN-QuickDisp)
+- 插件自定义id： `set_udim`
 
 <br/>
 
