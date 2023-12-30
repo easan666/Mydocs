@@ -50,7 +50,7 @@ VR-AutoNode是V-Ray的节点辅助工具，可以自动连接PBR贴图，自动�
 :::
 
 ::: details VR-AutoNode v1.0<Badge type="info" text="发布" />
-1. OC-MatTool_v1.0发布
+1. VR-AutoNode_v1.0发布
 
 :::
 
