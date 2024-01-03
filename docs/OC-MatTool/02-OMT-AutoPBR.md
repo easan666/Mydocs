@@ -5,8 +5,8 @@ layout: doc
 
 ## 简介
 
-用于Octane自动连接PBR贴图  
-适配Diffuse/Glossy/Specular/Metallic/Toon/Universal和 Standard Surface材质：
+用于Octane自动连接PBR贴图，支持混合材质  
+支持Diffuse/Glossy/Specular/Metallic/Toon/Universal/Surface/Mix/Composite/Layered/Sub材质：
 
 - 选中材质，点击执行就会自动连接
 - 根据所连接的通道**自动命名节点**
@@ -33,6 +33,14 @@ layout: doc
 <br />
 <br />
 
+<video  controls autoplay muted>
+  <source src="/img/oc-mattool-autopbr-multi_mat.webm" type="video/webm">
+</video>
+
+<br />
+<br />
+
+
 ## 使用说明
 
 ### 1. 需要选中材质
@@ -57,6 +65,21 @@ layout: doc
 - 关键词支持[**正则**](01-OMT-setting#正则使用)，可以根据需要添加
 - 支持的通道有`Diffuse`，`AO`，`Metalness`，`Roughness`，`Reflection`，`Glossiness`，`Bump`，`Normal`，`Opacity`，`Displacement`，`Emission`，`Translucency`
 
+
+<br />
+
+### 4.混合材质
+
+- 支持混合材质Mix Material，Composite Material，Layered Material
+- 如果是混合材质会显示弹出菜单，可以选择需要连接的材质节点
+
+<br />
+
+<video  controls autoplay muted>
+  <source src="/img/oc-mattool-autopbr-multi_mat.webm" type="video/webm">
+</video>
+
+
 <br />
 <br />
 
@@ -64,6 +87,7 @@ layout: doc
 插件会根据所选贴图的类型判断连接的方式，并且设置相应的参数：  
 
 如果贴图包含对应的关键词，会连接到对应的通道，并且根据不同通道设置贴图的类型（Type）和Legacy Gamma
+
 
 <br />
 
@@ -90,11 +114,3 @@ layout: doc
 - 连接`Displacement`贴图会自动添加Displacement节点……
 
 <br />
-
-> 节点连接之后会重叠，需要手动整理。
-
-<br />
-
-<video  controls autoplay muted>
-  <source src="/img/oc-mattool-autopbr-addadjust-02.webm" type="video/webm">
-</video>

@@ -16,6 +16,15 @@ layout: doc
 
 <br/>
 
+### 说明视频
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=368002966&bvid=BV1J94y1c7Zk&t=48&cid=1388713416&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+
+<br/>
 
 ## 自定义菜单
 
