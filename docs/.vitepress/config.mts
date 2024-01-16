@@ -47,6 +47,7 @@ export default defineConfig({
         },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
+        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
 
       '/OC-MatTool/': [
@@ -66,6 +67,7 @@ export default defineConfig({
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
+        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
       '/VR-AutoNode/': [
         {
@@ -94,6 +96,24 @@ export default defineConfig({
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
+        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
+      ],
+      '/CR-MatTool/': [
+        {
+          text: '<span class="h5-icon"><img src="/img/CR-AutoPBR.webp" alt="Custom Icon"></span>CR-MatTool',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/CR-MatTool/' },
+            { text: '插件设置/登录验证', link: '/CR-MatTool/01-CMT-setting' },
+            { text: 'AutoPBR（自动PBR）', link: '/CR-MatTool/02-CMT-AutoPBR' },
+            { text: '添加TriPlanar节点', link: '/CR-MatTool/03-CMT-SetTriPlanar' },
+            { text: '添加调节节点', link: '/CR-MatTool/04-CMT-SetAdjust' },
+            { text: '转换Bitmap', link: '/CR-MatTool/05-CMT-ToBitmap' },
+          ]
+        },
+        { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'OC-MatTool', link: '/OC-MatTool/' },
+        { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
       ],
       '/guide/': [
         {
