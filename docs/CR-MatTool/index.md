@@ -28,10 +28,14 @@ CR-MatTool是Corona材质辅助工具 一键连接PBR贴图，批量添加TriPla
 
 ## 更新说明
 
-::: info CR-MatTool v1.0<Badge type="danger" text="发布" />
-1. CR-MatTool_v1.0发布
+::: info CR-MatTool v1.1<Badge type="danger" text="更新2" />
+1. 修复对Cinema 4D 2024的支持
+2. 修复多套贴图连接着色器覆盖的bug
 
 :::
 
+::: details CR-MatTool v1.0<Badge type="info" text="发布" />
+1. CR-MatTool_v1.0发布
 
+:::
 

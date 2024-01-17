@@ -24,7 +24,7 @@ layout: doc
 <br />
 
 <video  controls autoplay muted>
-  <source src="/img/cr-mattool_autopbr_02_multi_tex.webm" type="video/webm">
+  <source src="/img/cr-mattool_v1-1_autopbr_02_multi_tex.webm" type="video/webm">
 </video>
 
 <br />
