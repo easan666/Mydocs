@@ -41,7 +41,15 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 
 ## 更新说明
 
-::: info RS_NodeTool v2.1<Badge type="danger" text="更新7+" />
+::: info RS_NodeTool v2.2<Badge type="danger" text="更新3+" />
+1. 新增自定义节点/命令菜单，可以自定义常用节点和命令菜单
+2. 自定义调节节点，可以自定义颜色/黑白调节节点
+3. 优化设置交互，插件设置点击确定后自动关闭
+
+:::
+
+
+::: details RS_NodeTool v2.1<Badge type="info" text="更新7+" />
 1. AutoPBR（自动PBR）新增自动连接[Substance节点](02-RNT-AutoPBR#_6-自动连接substance节点)
 2. 新增自动调节Substance节点[尺寸设置](01-RNT-setting#substance节点尺寸设置)
 3. 新增自动添加[调节节点设置](02-RNT-AutoPBR)
@@ -51,7 +59,6 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 7. 修复登录验证无网络连接提示
 
 :::
-
 
 ::: details RS_NodeTool v2.0<Badge type="info" text="更新15+" />
 1. 对插件核心逻辑进行重构，优化了插件的性能和兼容性

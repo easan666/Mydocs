@@ -28,6 +28,12 @@ export const NAV_DATA: NavData[] = [
         link: './03-RNT-AutoNode',
       },
       {
+        icon: '../../img/RS-NodeMenu.webp',
+        title: 'NodeMenu（节点菜单）',
+        desc: '自定义常用节点和命令菜单',
+        link: './03-RNT-NodeMenu',
+      },
+      {
         icon: '../../img/RS-AutoID.webp',
         title: 'AutoID（自动ID）',
         desc: '为所选对象自动设置Object ID / PuzzleMatte AOV',

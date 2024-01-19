@@ -34,6 +34,7 @@ export default defineConfig({
             { text: '插件设置/登录验证', link: '/RS-NodeTool/01-RNT-setting' },
             { text: 'AutoPBR（自动PBR）', link: '/RS-NodeTool/02-RNT-AutoPBR' },
             { text: 'AutoNode（自动节点）', link: '/RS-NodeTool/03-RNT-AutoNode' },
+            { text: 'NodeMenu（节点菜单）', link: '/RS-NodeTool/03-RNT-NodeMenu' },
             { text: 'AutoID（自动ID）', link: '/RS-NodeTool/04-RNT-AutoID' },
             { text: 'To PBR（PBR连接）', link: '/RS-NodeTool/05-RNT-To_PBR' },
             { text: 'Set TriPlanar（处理平铺）', link: '/RS-NodeTool/06-RNT-TriPlanar' },

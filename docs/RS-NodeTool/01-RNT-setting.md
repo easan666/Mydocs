@@ -25,7 +25,7 @@ layout: doc
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img data-zoomable src="/img/plugin_settings_options_v2.1.webp" alt="插件设置" width=50%>
+<img data-zoomable src="/img/rs-nodetool-2-2setting.webp" alt="插件设置" width=50%>
 
 <br />
 
@@ -71,6 +71,7 @@ AutoPBR（自动PBR）执行后会根据贴图的名称自动重命名对应材�
 取消勾选则不会自动重命名材质。
 
 <br />
+
 
 ---
 
@@ -164,3 +165,20 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 <video controls>
   <source src="/img/Obtain Port ID.webm" type="video/webm">
 </video>
+
+<br />
+<br />
+
+### 自定义颜色/黑白调节节点
+如果插件开启自动添加调节节点，会根据贴图连接的通道自动添加调节节点。  
+这里可以自定义调节节点：  
+节点ID会比较长，如`com.redshift3d.redshift4c4d.nodes.core.rscolorcorrection`  
+设置的时候只需要添加`.`后面的后缀，如：`rscolorcorrection`
+
+
+<br />
+
+### 自定义弹窗菜单
+> 自定义菜单相关设置请参考[自定义菜单](03-RNT-NodeMenu)
+
+<br />
