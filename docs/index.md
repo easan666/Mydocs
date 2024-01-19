@@ -18,36 +18,36 @@ hero:
       link: /RS-NodeTool/#功能介绍
 
 features:
+  - icon: 
+      src: ./img/RS-NodeTool-200.webp
+    title: RS-NodeTool 2.2
+    details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /RS-NodeTool/
   - icon:
       src: ./img/CR-AutoPBR-200.webp
-    title: CR-AutoPBR
+    title: CR-AutoPBR 1.0
     details: Corona材质辅助工具，一键连接PBR贴图，批量转换Bitmap，批量添加TriPlanar节点，一键处理重复贴图……
     link: /CR-MatTool/
   - icon:
       src: ./img/VR-AutoNodev2-200.webp
-    title: VR-AutoNode
+    title: VR-AutoNode 2.0
     details: V-Ray节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /VR-AutoNode/
   - icon: 
       src: ./img/OC-MatTool-200.webp
-    title: OC-MatTool 1.0
+    title: OC-MatTool 1.2
     details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
     link: /OC-MatTool/
-  - icon: 
-      src: ./img/RS-NodeTool-200.webp
-    title: RS-NodeTool 2.0
-    details: Redshit节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: /RS-NodeTool/
   - icon:
       src: ./img/RS-NodeSG-200.webp
     title: RS-NodeSG
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: https://cgexe.com/56554/
   - icon:
-      src: ./img/VR-AutoPBR-200.webp
-    title: VR-AutoNode
-    details: V-Ray的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: https://cgexe.com/56785/
+      src: ./img/AR-AutoNode-200.webp
+    title: AR-AutoNode
+    details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: https://cgexe.com/56745/
   - icon:
       src: ./img/88-Menu-200.webp
     title: 88-Menu
