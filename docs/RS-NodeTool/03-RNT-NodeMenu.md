@@ -53,8 +53,8 @@ rscolorcorrection,rsscalarramp,line,to_diffuse,blur_node,line,1061508,1061967,10
 <br/>
 
 
-## Vray节点id
-添加Vray节点id用于添加和设置常用节点；
+## Redshift节点id
+添加Redshift节点id用于添加和设置常用节点；
 
 复制的节点ID会比较长，如`com.redshift3d.redshift4c4d.nodes.core.rscolorcorrection`  
 设置的时候只需要添加`.`后面的后缀，如：`rscolorcorrection`
