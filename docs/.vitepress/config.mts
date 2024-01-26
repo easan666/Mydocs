@@ -46,11 +46,42 @@ export default defineConfig({
             { text: 'Blur Node（模糊节点）', link: '/RS-NodeTool/12-RNT-Blur_Node' },
           ]
         },
+        { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
         { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
-
+      '/RS-NodeSG/': [
+        {
+          text: 'RS-NodeSG',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/RS-NodeSG/' },
+            { text: '插件设置/登录验证', link: '/RS-NodeSG/01-RSG-setting' },
+            { text: 'AutoPBR（自动PBR）', link: '/RS-NodeSG/02-RSG-AutoPBR' },
+            {
+              text: 'NodeMenu（节点菜单）', collapsed: false, items: [
+                { text: '自定义菜单', link: '/RS-NodeSG/03-RSG-NodeMenu-setting' },
+                { text: '演示说明', link: '/RS-NodeSG/03-RSG-NodeMenu-demo' },
+                { text: '处理平铺', link: '/RS-NodeSG/03-VAN-CustomMenu-fix_tiling' },
+                { text: '模糊节点', link: '/RS-NodeSG/03-VAN-CustomMenu-blur-node' },
+                { text: '排列节点', link: '/RS-NodeSG/03-VAN-CustomMenu-arrange_nodes' },
+              ]
+            },
+            { text: 'AutoID（自动ID）', link: '/RS-NodeSG/04-RSG-AutoID' },
+            { text: 'To PBR（PBR连接）', link: '/RS-NodeSG/05-RSG-To_PBR' },
+            { text: 'Set TriPlanar（处理平铺）', link: '/RS-NodeSG/06-RSG-TriPlanar' },
+            { text: 'UV PSR（添加PSR控制）', link: '/RS-NodeSG/07-RSG-UV_PSR' },
+            { text: 'Set UDIM（设置UDIM）', link: '/RS-NodeSG/08-RSG-Set_UDIM' },
+            { text: 'Color Space（设置颜色空间）', link: '/RS-NodeSG/09-RSG-Color_Space' },
+            { text: 'To Sprite（转为Sprite）', link: '/RS-NodeSG/10-RSG-To_Sprite' },
+          ]
+        },
+        { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'OC-MatTool', link: '/OC-MatTool/' },
+        { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
+        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
+      ],
       '/OC-MatTool/': [
         {
           text: '<span class="h5-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool',
@@ -67,6 +98,7 @@ export default defineConfig({
           ]
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
         { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
@@ -96,6 +128,7 @@ export default defineConfig({
           ]
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
         { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
@@ -113,6 +146,7 @@ export default defineConfig({
           ]
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
       ],
