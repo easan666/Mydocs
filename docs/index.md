@@ -18,6 +18,11 @@ hero:
       link: /RS-NodeTool/#功能介绍
 
 features:
+  - icon:
+      src: ./img/RS-NodeSG.webp
+    title: RS-NodeSG
+    details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /RS-NodeSG/
   - icon: 
       src: ./img/RS-NodeTool-200.webp
     title: RS-NodeTool 2.2
@@ -38,11 +43,6 @@ features:
     title: OC-MatTool 1.2
     details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
     link: /OC-MatTool/
-  - icon:
-      src: ./img/RS-NodeSG-200.webp
-    title: RS-NodeSG
-    details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: https://cgexe.com/56554/
   - icon:
       src: ./img/AR-AutoNode-200.webp
     title: AR-AutoNode
