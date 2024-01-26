@@ -46,9 +46,6 @@ layout: doc
 rscolorcorrection,rsramp,line,to_diffuse,blur_node,line,1061584,1062620,1038693,12161
 ```
 
-<br/>
-
-<img data-zoomable src="/img/rs-nodetool-2-2setting-node-menu.webp" alt="保存为新版本" width=50%>
 
 <br/>
 <br/>

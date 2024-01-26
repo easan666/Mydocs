@@ -135,10 +135,6 @@ AutoPBR（自动PBR）的连接依赖文件名中的关键词，可以根据需�
 >视频教程：[id说明](https://www.bilibili.com/video/BV1hu4y1z768/?share_source=copy_web&vd_source=46329bbe65b4612ef4b45052f64ddb56&t=39)   丨  文件：[材质端口id](/img/rs_mat_id.txt)
 
 <br />
-
-<img data-zoomable src="/img/plugin_settings_options-color-space.webp" alt="颜色空间设置" width=50%>
-
-<br />
 <br />
 
 
