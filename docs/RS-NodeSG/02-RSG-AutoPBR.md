@@ -1,7 +1,7 @@
 ---
 layout: doc
 ---
-# <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-AutoPBR（自动PBR）
+# <span class="h1-icon"><img src="/img/SG-AutoPBR.webp" alt="Custom Icon"></span>RS-AutoPBR（自动PBR）
 
 ## 简介
 
