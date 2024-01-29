@@ -40,7 +40,7 @@ features:
     link: /VR-AutoNode/
   - icon: 
       src: ./img/OC-MatTool-200.webp
-    title: OC-MatTool 1.2
+    title: OC-MatTool 1.3
     details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
     link: /OC-MatTool/
   - icon:
