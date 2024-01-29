@@ -34,7 +34,16 @@ layout: doc
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img data-zoomable src="/img/oc-mattool-_settings_options-v1.webp" alt="插件设置" width=50%>
+<img data-zoomable src="/img/OC-MatTool_v1_3_setting.webp" alt="插件设置" width=50%>
+
+<br />
+<br />
+
+### 自定义置换尺寸
+AutoPBR（自动PBR）执行后会自动设置Displacement节点的Level of detail。  
+可以自适应设置置换贴图尺寸，也支持自定义大小
+
+<img data-zoomable src="/img/OC-MatTool_v1_3_setting_displacement.webp" alt="插件设置" width=50%>
 
 
 <br />

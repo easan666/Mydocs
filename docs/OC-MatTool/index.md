@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../OC-NodeTool-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool v1.0
+# <span class="h1-icon"><img src="/img/OC-AutoPBR.webp" alt="Custom Icon"></span>OC-MatTool v1.3
 ## 说明
 OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，批量添加调节节点，批量添加UV节点，批量添加TriPlanar节点，自动设置ID，自动添加Layer /Custom AOV等等……
 <br />
@@ -28,7 +28,13 @@ OC-MatTool是Octane材质辅助工具 一键连接PBR贴图，批量添加chaos�
 
 ## 更新说明
 
-::: info OC-MatTool v1.2<Badge type="danger" text="更新1+" />
+::: info OC-MatTool v1.3<Badge type="danger" text="更新1+" />
+1. 新增自动设置Displacement节点的Level of detail，可以自适应设置尺寸，也支持自定义大小
+2. 修复一些操作的弹窗提示
+
+:::
+
+::: details OC-MatTool v1.2<Badge type="info" text="更新1" />
 1. 新增支持混合材质Mix/Composite/Layered/Sub的连接
 
 :::
