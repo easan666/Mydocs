@@ -25,7 +25,7 @@ layout: doc
 ## 插件设置
 - 打开插件的设置，切换顶部的tab到`插件设置`。  
 
-<img data-zoomable src="/img/rs-nodetool-2-2setting.webp" alt="插件设置" width=50%>
+<img data-zoomable src="/img/rs-nodetool_v2_4_setting.webp" alt="插件设置" width=50%>
 
 <br />
 
@@ -39,6 +39,25 @@ layout: doc
 
 <br />
 
+### Substance节点尺寸设置
+可以设置Substance节点贴图默认的大小，连接后会自动设置。
+
+
+<br />
+
+### Specular/Metallic流程
+可以选择Substance节点Specular/Metallic流程，连接后会自动设置。  
+
+```
+金属/粗糙度流程 Metal/Roughness Workflow ：
+Base Color（基础色贴图）、 Metallic（金属贴图）、 Roughness（粗糙度贴图）  
+
+镜面反射/光泽度流程 Specular/Glossiness Workflow ：
+Diffuse（漫反射贴图）、Specular（镜面反射贴图）、Glossiness（光泽度贴图）  
+```
+
+<br />
+
 ### 自动排列节点
 AutoPBR（自动PBR）和Set TriPlanar（处理平铺）执行后会自动排列节点。  
 如果这里取消勾选则不会自动排列。
@@ -49,10 +68,6 @@ AutoPBR（自动PBR）和Set TriPlanar（处理平铺）执行后会自动排列
 AutoPBR（自动PBR）执行后会根据贴图连接的通道自动命名。  
 取消勾选则不会自动命名。
 
-<br />
-
-### Substance节点尺寸设置
-可以设置Substance节点贴图默认的大小，连接后会自动设置。
 
 <br />
 

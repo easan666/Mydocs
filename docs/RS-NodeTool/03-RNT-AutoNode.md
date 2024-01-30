@@ -122,8 +122,21 @@ layout: doc
 <br/>
 
 
+### 多选自动连接
+* 选择多个节点，会自动连接
+* 插件对所有节点进行了自动连接的设置，部分节点没有多个输入端口会跳过
+
+<br/>
+
+<video controls>
+  <source src="/img/rs-nodetool_v2_4_auto_double_node.webm" type="video/webm">
+</video>
+<br/>
+<br/>
+
+
 ### 混合节点的优化
-* 插入节点对Color Layer、Bump Blender、Displacement Blender节点进行了特别的优化
+* 插入节点对Color Layer、Bump Blender、Displacement Blender、Shader Switch节点进行了特别的优化
 * 选择多个节点，会自动连接
 
 > 如果想连接到材质还可以用[**TO PBR**](#to-pbr-指定通道连接)的命令
@@ -132,6 +145,10 @@ layout: doc
 
 <video controls>
   <source src="/img/autonode-layer_blend_node.webm" type="video/webm">
+</video>
+<br/>
+<video controls>
+  <source src="/img/rs-nodetool_v2_4_auto_rsshaderswitch.webm" type="video/webm">
 </video>
 <br/>
 <br/>

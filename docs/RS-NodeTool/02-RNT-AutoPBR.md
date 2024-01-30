@@ -138,6 +138,7 @@ layout: doc
 可以自动连接Substance节点常用的端口
 
 - 可以在插件设置[**Substance默认尺寸**](01-RNT-setting#substance节点尺寸设置)，连接后会自动设置尺寸
+- 可以在插件设置选择[**Specular/Metallic流程**](01-RNT-setting#specular-metallic流程)
 - 连接后会根据不同通道自动添加调节节点，可以在[**插件设置**](01-RNT-setting##插件设置-1)中取消
 - 连接后会根据sbsar文件名称重命名Substance节点，可以在[**插件设置**](01-RNT-setting##插件设置-1)中取消重命名
 - 连接后会根据sbsar文件名称重命名材质，可以在[**插件设置**](01-RNT-setting##插件设置-1)中取消重命名

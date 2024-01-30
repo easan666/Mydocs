@@ -8,7 +8,7 @@ import MNavLinks from '../components/MNavLinks.vue'
 import { NAV_DATA } from '../RS-NodeTool-data'
 </script>
 
-# <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool v2.2
+# <span class="h1-icon"><img src="/img/RS-AutoPBR.webp" alt="Custom Icon"></span>RS-NodeTool v2.4
 ## 说明
 RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</span>辅助工具，可以自动连接PBR贴图，自动插入常用节点，自动连接指定通道，自动添加PSR控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，自动设置颜色空间，自动设置对象ID标签，自动添加PuzzleMatte等等……
 <br />
@@ -41,13 +41,20 @@ RS-NodeTool是Redshift的<span class="gb-text">Node节点（新版节点）</spa
 
 ## 更新说明
 
-::: info RS_NodeTool v2.2<Badge type="danger" text="更新3+" />
+::: info RS_NodeTool v2.4<Badge type="danger" text="更新3+" />
+1. 新增对所有节点进行了[自动连接的优化](03-RNT-AutoNode#多选自动连接)，大部分节点多选后会自动连接
+2. 新增对[Shader Switch](03-RNT-AutoNode#混合节点的优化)自动连接的优化
+3. 新增Substance节点连接可选[Specular/Metallic流程](01-RNT-setting#specular-metallic流程)
+4. 修复Optimize Node等已知bug
+
+:::
+
+::: details RS_NodeTool v2.2<Badge type="info" text="更新3+" />
 1. 新增自定义节点/命令菜单，可以自定义常用节点和命令菜单
 2. 自定义调节节点，可以自定义颜色/黑白调节节点
 3. 优化设置交互，插件设置点击确定后自动关闭
 
 :::
-
 
 ::: details RS_NodeTool v2.1<Badge type="info" text="更新7+" />
 1. AutoPBR（自动PBR）新增自动连接[Substance节点](02-RNT-AutoPBR#_6-自动连接substance节点)
