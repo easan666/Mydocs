@@ -116,13 +116,13 @@ rscolorcorrection,rsramp,line,to_diffuse,blur_node,line,1061584,1062620,1038693,
 
 ## 菜单中英文设置
 自定义菜单设置节点id和插件自定义id的时候会显示为英文；  
-如果需要显示中文，可以在插件中`rsid`文件夹的`rsMenu_name.py`中修改。  
+如果需要显示中文，可以在插件中`rsid`文件夹的`rsSG_Menu_name.py`中修改。  
 
 如：`"rscolorcorrection": "Color Correct",`修改为`"rscolorcorrection": "颜色校正",`，修改后需重启C4D。
 
 <br />
 
->`lang.zip`压缩包有中文版的文件，也可以将对应文件重命名后直接覆盖`rsMenu_name.py`即可。
+>`lang.zip`压缩包有中文版的文件，也可以将对应文件重命名后直接覆盖`rsSG_Menu_name.py`即可。
 
 
 <br />
