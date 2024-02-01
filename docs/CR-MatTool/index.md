@@ -17,6 +17,14 @@ CR-MatTool是Corona材质辅助工具 一键连接PBR贴图，批量添加TriPla
 - 插件下载地址（付费）：https://cgexe.com/57351/
 - 插件需要登录后才能使用：[登录说明](01-CMT-setting)
 
+<br />
+
+::: info 已知Bug<Badge type="info" text="1" />
+当一个节点连接多个端口时，除了AutoPBR（自动PBR），其他命令无法使用。
+
+原因：节点连接多个端口时会生成一个Corona Shared导致无法获取原来节点，由于Corona没有公开相关API，所以暂时无法处理。
+
+:::
 
 <br />
 
