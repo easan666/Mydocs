@@ -20,11 +20,13 @@ CR-MatTool是Corona材质辅助工具 一键连接PBR贴图，批量添加TriPla
 <br />
 
 ::: info 已知Bug<Badge type="info" text="1" />
-当一个节点连接多个端口时，除了AutoPBR（自动PBR），其他命令无法使用。
+当一个节点生成Shared时，除了AutoPBR（自动PBR），其他命令无法使用。
 
 原因：节点连接多个端口时会生成一个Corona Shared导致无法获取原来节点，由于Corona没有公开相关API，所以暂时无法处理。
 
 :::
+
+<img src="/img/corona-shared-bug.webp" alt="Corona Shared">
 
 <br />
 
