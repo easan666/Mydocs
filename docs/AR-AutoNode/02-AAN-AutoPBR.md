@@ -40,7 +40,7 @@ layout: doc
 
 ### 1. 需要选中材质
 使用的时候需要选中材质，然后在该材质的节点中编辑
-![选中材质](/img/V-Ray-Node-Material.gif)
+![选中材质](/img/ar_autonode_material_selection.gif)
 
 <br />
 
