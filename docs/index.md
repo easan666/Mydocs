@@ -29,25 +29,25 @@ features:
     details: RS旧版节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /RS-NodeSG/
   - icon:
-      src: ./img/CR-AutoPBR-200.webp
-    title: CR-AutoPBR 1.0
-    details: Corona材质辅助工具，一键连接PBR贴图，批量转换Bitmap，批量添加TriPlanar节点，一键处理重复贴图……
-    link: /CR-MatTool/
+      src: ./img/AR-AutoNode-2-200.webp
+    title: AR-AutoNode 2.0
+    details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
+    link: /AR-AutoNode/
   - icon:
       src: ./img/VR-AutoNodev2-200.webp
     title: VR-AutoNode 2.0
     details: V-Ray节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /VR-AutoNode/
+  - icon:
+      src: ./img/CR-AutoPBR-200.webp
+    title: CR-AutoPBR 1.0
+    details: Corona材质辅助工具，一键连接PBR贴图，批量转换Bitmap，批量添加TriPlanar节点，一键处理重复贴图……
+    link: /CR-MatTool/
   - icon: 
       src: ./img/OC-MatTool-200.webp
     title: OC-MatTool 1.3
     details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
     link: /OC-MatTool/
-  - icon:
-      src: ./img/AR-AutoNode-200.webp
-    title: AR-AutoNode
-    details: Arnold的节点工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
-    link: https://cgexe.com/56745/
   - icon:
       src: ./img/88-Menu-200.webp
     title: 88-Menu

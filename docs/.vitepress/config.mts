@@ -48,8 +48,8 @@ export default defineConfig({
         },
         { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
+        { text: 'AR-AutoNode', link: '/AR-AutoNode/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
-        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
       '/RS-NodeSG/': [
         {
@@ -79,8 +79,8 @@ export default defineConfig({
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
+        { text: 'AR-AutoNode', link: '/AR-AutoNode/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
-        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
       '/OC-MatTool/': [
         {
@@ -99,8 +99,8 @@ export default defineConfig({
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
         { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
+        { text: 'AR-AutoNode', link: '/AR-AutoNode/' },
         { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
-        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
       ],
       '/VR-AutoNode/': [
         {
@@ -130,7 +130,7 @@ export default defineConfig({
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
         { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
         { text: 'OC-MatTool', link: '/OC-MatTool/' },
-        { text: 'CR-AutoPBR', link: '/CR-MatTool/' },
+        { text: 'AR-AutoNode', link: '/AR-AutoNode/' },
       ],
       '/CR-MatTool/': [
         {
@@ -143,6 +143,34 @@ export default defineConfig({
             { text: '添加TriPlanar节点', link: '/CR-MatTool/03-CMT-SetTriPlanar' },
             { text: '添加调节节点', link: '/CR-MatTool/04-CMT-SetAdjust' },
             { text: '转换Bitmap', link: '/CR-MatTool/05-CMT-ToBitmap' },
+          ]
+        },
+        { text: 'RS-NodeTool', link: '/RS-NodeTool/' },
+        { text: 'RS-NodeSG', link: '/RS-NodeSG/' },
+        { text: 'AR-AutoNode', link: '/AR-AutoNode/' },
+        { text: 'OC-MatTool', link: '/OC-MatTool/' },
+        { text: 'VR-AutoNode', link: '/VR-AutoNode/' },
+      ],
+      '/AR-AutoNode/': [
+        {
+          text: '<span class="h5-icon"><img src="/img/AR-AutoPBR.webp" alt="Custom Icon"></span>AR-AutoNode',
+          collapsed: false,
+          items: [
+            { text: '简介/更新说明', link: '/AR-AutoNode/' },
+            { text: '插件设置/登录验证', link: '/AR-AutoNode/01-AAN-setting' },
+            { text: '导入节点资产', link: '/AR-AutoNode/01-AAN-import_assets' },
+            { text: 'AutoPBR（自动PBR）', link: '/AR-AutoNode/02-AAN-AutoPBR' },
+            {
+              text: 'NodeMenu（节点菜单）', collapsed: false, items: [
+                { text: '自定义菜单', link: '/AR-AutoNode/03-AAN-CustomMenu' },
+                { text: '自动连接节点', link: '/AR-AutoNode/03-AAN-CustomMenu-insert_node' },
+                { text: 'Triplanar', link: '/AR-AutoNode/03-AAN-CustomMenu-set_tri' },
+                { text: 'UV coordinates', link: '/AR-AutoNode/03-AAN-CustomMenu-set_coords' },
+                { text: 'Transform', link: '/AR-AutoNode/03-AAN-CustomMenu-set_trans' },
+                { text: 'UDIM', link: '/AR-AutoNode/03-AAN-CustomMenu-set_udim' },
+              ]
+            },
+            { text: 'To PBR（PBR连接）', link: '/AR-AutoNode/04-AAN-To_PBR' },
           ]
         },
         { text: 'RS-NodeTool', link: '/RS-NodeTool/' },

@@ -1,0 +1,122 @@
+<div class="d-flex flex-column mb-6 PuIco-border bg-light text-dark">
+    <div class="d-flex flex-row align-items-center mx-4 my-5 row">
+    <div class="col-2"><img class="PuIco-iconimg" src="https://img.cgexe.com/wp-content/uploads/toolico/AR-AutoNode-2-200.png" alt="AR-AutoNode" /></div>
+    <div class="col-10">
+    <div class="d-flex flex-row align-items: flex-start;">
+    <h4>[custom_title]</h4>
+    <p class="mb-0"><span class="badge bg-warning text-dark me-1 ms-1">原创</span></p>
+    </div>
+    <p class="mb-1">[custom_excerpt]</p>
+    <div class="d-flex flex-row align-items-baseline"><span class="badge bg-primary text-white me-1">2024</span>
+    <span class="badge bg-success text-white me-1">2023</span><span class="badge bg-success text-white me-1">R26</span><span class="badge bg-success text-white me-1">R25</span></div></div></div></div>
+    <video controls="controls" width="auto" height="auto">
+    <source src="https://img.cgexe.com/wp-content/uploads/toolico/ar-autonode_v2_demo.webm" type="video/webm" />
+    </video>
+    <h2>说明</h2>
+    AR-AutoNode是Arnold的节点辅助工具，同时支持Node节点（Node Material）和legacy节点（Arnold Material/legacy），可以自动连接PBR贴图，自动插入节点，自动连接指定通道，自动添加UV控制，批量添加TriPlanar节点，一键处理重复贴图，自动设置UDIM，等等……
+    
+    - 插件适用于<span style="color: #339966;"><strong>Cinema 4D R25~2024</strong></span>
+    <h2 class="mt-5">⭐文档</h2>
+    <div class="card w-50 p-3 bg-light">
+    <div class="card-body mt-2">
+    <h5 class="card-title">插件详细介绍和使用说明</h5>
+    <p class="card-text">文档部署在github，最好使用魔法访问</p>
+    <a class="btn btn-dark" href="https://cgexe.pro/AR-AutoNode/" target="_blank" rel="noopener nofollow ugc">点击查看</a>
+    </div>
+    </div>
+    <h2 class="mt-5">⭐注意</h2>
+    <ol>
+         <li>插件需要登录后才能使用：<a class="red_link-sm" href="https://cgexe.pro/AR-AutoNode/01-AAN-setting.html" target="_blank" rel="noopener nofollow ugc">登录说明</a>，登录后可以一直使用，没有时间限制</li>
+         <li>使用QQ登录的用户需要先<a class="red_link-sm" href="https://cgexe.com/user/profile/" target="_blank" rel="noopener nofollow ugc">绑定邮箱</a>，然后设置密码才能登录插件</li>
+         <li>如果没有密码或者忘记密码可以先<a class="red_link-sm" href="https://cgexe.com/user/profile/" target="_blank" rel="noopener nofollow ugc">绑定邮箱</a>，然后退出登录后<a class="red_link-sm" href="https://cgexe.com/lostpwd/" target="_blank" rel="noopener nofollow ugc">找回密码</a></li>
+         <li>有问题请加QQ处理：860190273</li>
+    </ol>
+    &nbsp;
+    <h2 class="mt-5">更新说明</h2>
+    <div id="accordionPanelsStayOpenExample" class="accordion">
+    <div class="accordion-item">
+    <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#makeID_new" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">AR-AutoNode v2.0<span class="ms-2 badge rounded-pill bg-danger">更新15+</span></button></h2>
+    <div id="makeID_new" class="accordion-collapse collapse show">
+    <div class="accordion-body">
+    <ol class="mb-0">
+         <li>重写插件，对插件核心逻辑进行重构，优化了插件的性能和兼容性</li>
+         <li>由于Arnold的api不稳定，所以采用C4D官方的api</li>
+         <li>重新优化自动PBR的连接逻辑</li>
+         <li>新增支持多材质节点自动连接PBR</li>
+         <li>新增自动设置贴图的颜色空间（可自定义）</li>
+         <li>新增自动连接PBR后自动添加调节节点（可自定义）</li>
+         <li>新增自动连接PBR后根据文件名重命名材质</li>
+         <li>新增多贴节点连接根据文件名排序</li>
+         <li>新增同时支持Glossiness和Roughness贴图</li>
+         <li>菜单全面升级，使用新的自定义弹出菜单，支持自定义添加常用节点和命令</li>
+         <li>新增支持插入全部Arnold节点，支持自动混合，支持自定义排序</li>
+         <li>插入节点方式的重新设计，支持多种插入方式，满足各种情况</li>
+         <li>对所有节点进行了自动化的处理，计算和混合节点支持自动连接</li>
+         <li>混合节点连接的优化，layer_rgba、mix_rgba、layer_shader、switch_shader等节点可以自动连接</li>
+         <li>新增TP PBR弹出菜单</li>
+    </ol></div></div></div>
+    <div class="accordion-item">
+        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#makeID3" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">AR-AutoNode v1.04<span class="ms-2 badge bg-secondary rounded-pill opacity-50">更新1</span></button></h2>
+        <div id="makeID3" class="accordion-collapse collapse">
+        <div class="accordion-body">
+        <ol class="mb-0">
+             <li>修改阿诺德4.6.7官方api以兼容Cinema 4D 2024，R25~2024可以共用插件</li>
+        </ol></div></div></div>
+    <div class="accordion-item">
+    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#makeID2" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">AR-AutoNode v1.01<span class="ms-2 badge bg-secondary rounded-pill opacity-50">更新1</span></button></h2>
+    <div id="makeID2" class="accordion-collapse collapse">
+    <div class="accordion-body">
+    <ol class="mb-0">
+         <li>对Cinema 4D 2024.1的支持，修改阿诺德官方api以兼容新版本</li>
+    </ol></div></div></div>
+    <div class="accordion-item">
+    <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#makeID1" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">AR-AutoNode v1.0<span class="ms-2 badge bg-secondary rounded-pill opacity-50">发布</span></button></h2>
+    <div id="makeID1" class="accordion-collapse collapse">
+    <div class="accordion-body">
+    <ol class="mb-0">
+         <li>AR-AutoNode v1.0发布</li>
+    </ol></div></div></div></div>
+
+    &nbsp;
+    <h2>介绍</h2>
+    <ul id="myTabs" class="nav nav-tabs" role="tablist">
+         <li class="nav-item" role="presentation"><a id="home-tab" class="nav-link active" role="tab" href="#home" data-bs-toggle="tab" aria-controls="home" aria-selected="true">AR-AutoPBR（自动PBR）</a></li>
+         <li class="nav-item" role="presentation"><a id="link2-tab" class="nav-link" role="tab" href="#link2" data-bs-toggle="tab" aria-controls="link2" aria-selected="false">NodeMenu（节点菜单）</a></li>
+         <li class="nav-item" role="presentation"><a id="link1-tab" class="nav-link" role="tab" href="#link1" data-bs-toggle="tab" aria-controls="link1" aria-selected="false">To PBR（PBR连接）</a></li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+    <div id="home" class="tab-pane fade show active" role="tabpanel" aria-labelledby="home-tab">
+    <div class="col p-4">AR-AutoPBR（自动PBR）详细文档&amp;图文演示：<a class="red_link-sm" href="https://cgexe.pro/AR-AutoNode/02-AAN-AutoPBR.html" target="_blank" rel="noopener nofollow ugc">点击查看</a>
+        用于Arnold 标准材质（standard_surface）自动连接PBR贴图：
+    - 选中所需贴图，点击执行就会自动连接，连接后会自动排列节点
+    - 根据所连接的通道自动命名
+    - 为不同类型贴图自动设置颜色空间
+    - 贴图的连接依赖文件名中的关键词
+    - 关键词支持正则，不区分大小写，可以插件设置自定义通道关键词
+    - 支持Node节点和legacy节点
+    - 支持单个通道多贴图混合添加（例如多个Diffuse，多个Bump）
+    - 支持多套贴图同时连接
+    - 支持混合材质（如果有多个材质节点，需选中对应材质）</div>
+    </div>
+    <div id="link2" class="tab-pane fade" role="tabpanel" aria-labelledby="link2-tab">
+    <div class="col p-4">AR-NodeMenu（节点菜单）详细文档&amp;图文演示：<a class="red_link-sm" href="https://cgexe.pro/AR-AutoNode/03-AAN-CustomMenu.html" target="_blank" rel="noopener nofollow ugc">点击查看</a>
+    - 支持自定义添加所有Arnold节点和自定义排序
+    - 可以在所选节点前插入节点，并且自动连接
+    - 支持三种方式插入，自动添加节点
+    - 选择多个节点，自动添加混合层
+    - 可以调用插件命令，批量添加TriPlanar、Transform等</div>
+    </div>
+    <div id="link1" class="tab-pane fade" role="tabpanel" aria-labelledby="link1-tab">
+    <div class="col p-4">AR-To PBR（PBR连接）详细文档&amp;图文演示：<a class="red_link-sm" href="https://cgexe.pro/AR-AutoNode/04-VAN-To_PBR.html" target="_blank" rel="noopener nofollow ugc">点击查看</a>
+    将所选贴图连接指定通道，并创建对应的调节节点
+    - 选中所需节点，点击执行，会创建对应的调节节点并且连接到指定的通道
+    - 如果选择的节点为贴图，会自动设置颜色模式。
+    - 如果选择多个节点会自动创建混合图层
+    - 选择的节点可以是任意节点，如果是纹理节点会根据连接的通道设置颜色空间
+    - 每个通道混合的上限取决于layer_rgba节点，layer_rgba节点最多支持8个节点。</div>
+    </div>
+    </div>
+    &nbsp;
+    <h2>视频教程</h2>
+    <h3>AR-AutoNode 1.0</h3>
+<iframe src="//player.bilibili.com/player.html?aid=406990795&amp;bvid=BV1yG411m7ps&amp;cid=1292298012&amp;p=1" frameborder="no" scrolling="no" allowfullscreen="allowfullscreen"> </iframe>
