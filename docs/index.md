@@ -38,16 +38,21 @@ features:
     title: VR-AutoNode 2.0
     details: V-Ray节点辅助工具，一键连接PBR贴图，自动插入常用节点，一键处理重复贴图，自动连接指定通道……
     link: /VR-AutoNode/
-  - icon:
-      src: ./img/CR-AutoPBR-200.webp
-    title: CR-AutoPBR 1.0
-    details: Corona材质辅助工具，一键连接PBR贴图，批量转换Bitmap，批量添加TriPlanar节点，一键处理重复贴图……
-    link: /CR-MatTool/
   - icon: 
       src: ./img/OC-MatTool-200.webp
     title: OC-MatTool 1.3
     details: Octane材质辅助工具，一键连接PBR贴图，批量添加chaos节点，一键处理重复贴图，自动设置ID……
     link: /OC-MatTool/
+  - icon:
+      src: ./img/CR-AutoPBR-200.webp
+    title: CR-AutoPBR 1.0
+    details: Corona材质辅助工具，一键连接PBR贴图，批量转换Bitmap，批量添加TriPlanar节点，一键处理重复贴图……
+    link: /CR-MatTool/
+  - icon:
+      src: ./img/AutoSort-200.webp
+    title: AutoSort
+    details: 一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
+    link: /AutoSort/
   - icon:
       src: ./img/88-Menu-200.webp
     title: 88-Menu
