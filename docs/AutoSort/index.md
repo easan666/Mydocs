@@ -12,6 +12,17 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 - 插件下载地址（付费）：https://cgexe.com/57457/
 - 插件需要登录后才能使用：[登录说明](#登录说明)
 
+
+<br />
+
+## 视频教程
+<br />
+
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=1851967804&bvid=BV1tp421U7vL&cid=1471471115&p=1&autoplay=0"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
+
+
 <br />
 
 ## 登录说明
