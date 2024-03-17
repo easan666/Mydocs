@@ -2,7 +2,13 @@
 layoutClass: doc
 ---
 
-# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.0
+<script setup>
+import MNavLinks from '../components/MNavLinks.vue'
+
+import { NAV_DATA } from '../AutoSort-data'
+</script>
+
+# <span class="h1-icon"><img src="/img/AutoSort.webp" alt="Custom Icon"></span>AutoSort v1.1
 
 ## 说明
 AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选对象，自动归类和设置层，支持自定义类型、颜色、正则关键词等等……
@@ -12,6 +18,33 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 - 插件下载地址（付费）：https://cgexe.com/57457/
 - 插件需要登录后才能使用：[登录说明](#登录说明)
 
+
+<br />
+
+## 功能介绍
+<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>
+
+
+<br />
+
+## 相关问题
+
+::: details 为什么无法归类？
+为了避免出错，已经添加层的对象是不会去移动和修改，所以如果发现无法归类的物体，请将其移出层
+:::
+
+::: details 更新插件怎么保持之前的设置？
+更新/移动插件之前可以先备份配置文件，然后在其他电脑上覆盖配置文件，这样就不需要再设置一遍了。
+配置文件位置：在插件文件夹的 `res`文件夹下，文件名是`ObjectType.json`
+:::
+
+::: details 无法保存插件设置？
+插件会将配置信息存储在文件，一般来说C4D对默认的插件目录都有有写入权限。  
+如果没有的话，可以分别尝试：
+1. 将插件放在C4D配置文件夹的插件目录，打开C4D > 编辑 > 设置 > 配置文件夹 > 打开对应的版本 > plugins文件夹
+2. 右键C4D，以管理员身份运行
+3. 使用管理员账户登录Windows系统
+:::
 
 <br />
 
@@ -25,170 +58,20 @@ AutoSort（自动整理）是C4D的场景整理插件，可以一键整理所选
 
 <br />
 
-## 登录说明
-
-<img src="/img/login_verification_screenshot.webp" data-zoomable alt="登录验证" width=60% >
-
-- 如果是首次使用会显示登录窗口，需要输入账号密码登录，登录后即可使用插件。
-
-::: info 设置密码
-使用QQ注册的用户可以在[个人信息](https://cgexe.com/user/profile/)绑定邮箱，和重置/设置密码。  
-如果忘记密码可以[找回密码](https://cgexe.com/lostpwd/)
-:::
-
-- 每个用户可以在**5台电脑**上使用（重装系统会计数），超过5台电脑将会被禁止登录。  
-如果短时间内在多地登录或者短时间登录多台电脑，视为异常记录，**可能会封号或者拉黑**。  
-没有异常记录却被误封或者无法登录可以联系管理员（`cgexe@qq.com`）解封。
-
-<br />
-
-## 使用介绍
-
-使用方法非常简单，只需要选择物体，然后点击，就会根据插件设置自动归类和命名。
-
-::: danger 无法归类
-为了避免出错，已经添加层的对象是不会去移动和修改，所以如果发现无法归类的物体，请将其移出层
-:::
-
-<br />
-
-<video controls>
-  <source src="/img/autosort_v1_plugin_usage_demo.webm" type="video/webm">
-</video>
-
-<br />
-<br />
-
-有些场景的物体是需要父子级关系的，就像变形器需要在物体的子级才能生效。
-所以如果所选物体存在父级的话，会以父级为判断标准，这样可以保持原有的层级。
-
-::: info 折叠全部
-为了避免出错，使用前请先 “折叠全部” (Fold All)，然后再选择物体。
-:::
-
-<img src="/img/autosort_v1_fold_all_screenshot.webp" data-zoomable alt="fold_all">
-
-
-<br />
-<br />
-
-## 插件设置
-- 插件会根据id和关键词自动归类，支持C4D的类型id，支持C4D的物体id，支持自定义关键词
-- id和关键词使用英文逗号`,`分隔，关键词支持正则
-- 使用关键词`other`会匹配未归类的物体
-- 支持自定义类型名称和颜色
-
-::: info 注意
-自定义物体建议直接写[名称关键词](#自定义关键词)，这样比较省事。如：`穹顶光,天空,Sky`, 用英文逗号`,`分隔。
-::: 
-
-<img src="/img/autosort_v1_plugin_settings_screenshot-2.webp" data-zoomable alt="plugin_settings">
-
-<br />
-
-<video controls>
-  <source src="/img/autosort_v1_plugin_settings_demo.webm" type="video/webm">
-</video>
-
-<br />
-<br />
-
-<br />
-
-### 自定义关键词
-就是直接写物体的名称或者自定义关键词（[支持正则](#正则常用示例)），如果所选对象的名称包含关键词就会归类  
-如：`穹顶光,天空,Sky`等等，用英文逗号`,`分隔。
-
-<br />
-
-### 类型id
-C4D中自带的物体都有相关的类型id，如域`Ofield`、效果器`Obaseeffector`等等……  
-
-- 添加的时候需要使用前缀`c4d.`, 如 `c4d.Ofield`
-- 更多类型id可以查阅SDK文档：[Object Types](https://developers.maxon.net/docs/py/2024_0_0a/types/objects.html)
-
-
-<br />
-
-### 物体id
-C4D中每个物体都有对应的id，可以在控制台获取
-
-- 打开 > 扩展 > 控制台，快捷键是`Shift+F10`
-- 选择单个物体，然后拖曳到控制台的`>>>`，按下回车，就可以获取物体的id，如：`5159`
-
-::: info 注意
-有些对象的物体id和类型id是一样的，例如所有RS灯光的id都是`c4d.Orslight`也是`1036751`，  
-如果需要归类RS的Dome Light（RS穹顶光），那么就需要[自定义关键词](#自定义关键词)。
-::: 
-
-<br />
-
-<video controls>
-  <source src="/img/autosort_v1_get_object_id.webm" type="video/webm">
-</video>
-
-<br />
-<br />
-
-
-<br />
-
-## 备份设置
-如果已经设置好了插件的设置，需要更新/移动插件的话可以备份配置文件，然后在其他电脑上覆盖配置文件，这样就不需要再设置一遍了。  
-配置文件位置：在插件文件夹 > `res`文件夹下，文件名是`ObjectType.json`
-
-<br />
-
-## 正则常用示例
-关键词不区分大小写，支持`正则`，下面是部分正则常用示例：
-
-**常用示例：**
-
-- `a.+?b` 匹配以字母 "a" 开头，后面跟着一个或多个任意字符（非贪婪模式），然后以字母 "b" 结尾的字符串。
-- `a..b` 匹配以字母 "a" 开头，后面跟着任意两个字符，然后以字母 "b" 结尾的字符串。
-- `\d+` 匹配一个或多个连续的数字。
-- `^apple` 匹配以 "apple" 开头的字符串
-- `apple$` 来匹配以 "apple" 结尾的字符串
-
-**字符匹配：**
-
-- `\d` 匹配任意数字。
-- `\w` 匹配任意字母、数字或下划线。
-- `\s` 匹配任意空白字符（空格、制表符等）。
-- `.` 匹配除换行符外的任意字符。
-
-**重复次数：**
-
-- `*` 匹配前一个元素零次或多次。
-- `+` 匹配前一个元素一次或多次。
-- `?` 匹配前一个元素零次或一次。
-- `{n}` 匹配前一个元素恰好 n 次。
-- `{n,}` 匹配前一个元素至少 n 次。
-- `{n,m}` 匹配前一个元素至少 n 次且不超过 m 次。
-
-**字符类：**
-
-- `[abc]` 匹配 a、b 或 c 中的任意一个字符。
-- `[^abc]` 匹配除了 a、b 和 c 以外的任意字符。
-- `[a-z]` 匹配任意小写字母。（插件不区分大小写）
-- `[A-Z]` 匹配任意大写字母。（插件不区分大小写）
-- `[0-9]` 匹配任意数字。
-
-**锚点：**
-
-- `^` 匹配行的开头。
-- `$` 匹配行的结尾。
-- `\b` 匹配单词的边界
-
-
-<br />
-<br />
-
-
-
 ## 更新说明
 
-::: info AutoSort v1.0.1<Badge type="danger" text="更新1+" />
+::: info AutoSort v1.1.0<Badge type="danger" text="更新8+" />
+1. 优化查找和分类的逻辑
+2. 优化移动的排序，分类之后保持原来的排序
+3. 优化同名组的设置逻辑
+4. 取消分类后自动折叠
+5. 添加相关提示和引导
+6. 新增[同组独显](03-AutoSort-groupsolo)
+7. 新增[全局独显](03-AutoSort-groupsolo)
+8. 新增[隐藏/显示所选](03-AutoSort-groupsolo)
+:::
+
+::: info AutoSort v1.0.1<Badge type="info" text="更新1+" />
 1. 修复场景太多模型卡死的问题
 :::
 
