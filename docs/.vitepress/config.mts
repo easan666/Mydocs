@@ -185,7 +185,7 @@ export default defineConfig({
           items: [
             { text: '简介/更新说明', link: '/AutoSort/' },
             { text: '插件设置', link: '/AutoSort/01-AutoSort-setting' },
-            { text: 'AutoSort（自动整理）', link: '/AutoSort/02-AutoSort-document' },
+            { text: 'AutoSort（一键整理）', link: '/AutoSort/02-AutoSort-document' },
             { text: 'GroupSolo（同组独显）', link: '/AutoSort/03-AutoSort-groupsolo' },
 
           ]

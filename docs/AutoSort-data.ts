@@ -17,7 +17,7 @@ export const NAV_DATA: NavData[] = [
       },
       {
         icon: '../../img/AutoSort.webp',
-        title: 'AutoSort（自动整理）',
+        title: 'AutoSort（一键整理）',
         desc: '一键整理所选对象',
         link: './02-AutoSort-document',
       },
