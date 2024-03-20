@@ -21,7 +21,7 @@ layout: doc
 <br/>
 
 <video controls>
-  <source src="/img/rs-nodesg-2-auto-id-1.webm" type="video/webm">
+  <source src="/img/rs-nodesg-2-auto-id-2.webm" type="video/webm">
 </video>
 
 <br/>
@@ -32,7 +32,7 @@ layout: doc
 <br/>
 
 <video controls>
-  <source src="/img/rs-nodesg-2-auto-id-2.webm" type="video/webm">
+  <source src="/img/rs-nodesg-2-auto-id-1.webm" type="video/webm">
 </video>
 
 <br/>
